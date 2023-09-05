@@ -3,3 +3,15 @@ spring:
     name: msph-account-service
   banner:
     location: classpath:spring/banner.txt
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:6161/eureka
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

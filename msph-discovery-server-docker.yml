@@ -1,0 +1,8 @@
+server:
+  port: ${MSPH_EUREKA_PORT:8761}
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://msph-discovery-server:${server.port}/eureka/
+

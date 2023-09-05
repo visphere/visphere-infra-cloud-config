@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: msph-api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: 'http://localhost:6053'
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+      routes:
+        - id: account
+          uri: lb://msph-account-service
+          predicates:
+            - Path=/api/v1/account/**
+        - id: auth
+          uri: lb://msph-auth-service
+          predicates:
+            - Path=/api/v1/auth/**
+        - id: misc
+          uri: lb://msph-misc-service
+          predicates:
+            - Path=/api/v1/misc/**
+
+server:
+  port: 6065
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:6161/eureka
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

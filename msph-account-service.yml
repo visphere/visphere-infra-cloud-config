@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: msph-account-service
+  banner:
+    location: classpath:spring/banner.txt

@@ -4,4 +4,4 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:${MSPH_DOCKER_EUREKA_PORT:8761}/eureka
+      defaultZone: http://msph-discovery-server:${MSPH_DOCKER_EUREKA_PORT:8761}/eureka

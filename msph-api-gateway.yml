@@ -1,6 +1,8 @@
 spring:
   application:
     name: msph-api-gateway
+  banner:
+    location: classpath:spring/banner.txt
   cloud:
     gateway:
       discovery:

@@ -1,6 +1,8 @@
 spring:
   application:
     name: msph-discovery-server
+  banner:
+    location: classpath:spring/banner.txt
 
 eureka:
   client:

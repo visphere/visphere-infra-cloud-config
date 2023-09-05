@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${MSPH_DOCKER_EUREKA_PORT:8761}/eureka

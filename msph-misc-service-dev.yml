@@ -1,0 +1,7 @@
+server:
+  port: 0
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${MSPH_EUREKA_PORT:8761}/eureka

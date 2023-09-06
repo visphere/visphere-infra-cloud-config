@@ -6,7 +6,7 @@ eureka:
     hostname: msph-discovery-server
   client:
     service-url:
-      defaultZone: http://msph-discovery-server:${server.port}/eureka/
+      defaultZone: http://${MSPH_EUREKA_USERNAME}:${MSPH_EUREKA_PASSWORD}@msph-discovery-server:${server.port}/eureka/
 
 spring:
   security:

@@ -9,7 +9,7 @@ spring:
               - 'http://localhost:${MSPH_DOCKER_CLIENT_PORT}'
 
 server:
-  port: ${MSPH_DOCKER_API_GATEWAY_PORT}
+  port: 8080
 
 eureka:
   client:

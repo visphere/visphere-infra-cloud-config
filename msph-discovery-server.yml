@@ -6,7 +6,7 @@ spring:
 
 eureka:
   instance:
-    hostname: machine_ip
+    hostname: msph-discovery-server
   client:
     register-with-eureka: false
     fetch-registry: false

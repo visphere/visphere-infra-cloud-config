@@ -9,6 +9,10 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
 
+application:
+  captcha:
+    secretkey: ${MSPH_CAPTCHA_SECRETKEY}
+
 management:
   tracing:
     sampling:

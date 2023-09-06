@@ -5,8 +5,6 @@ spring:
     location: classpath:spring/banner.txt
 
 eureka:
-  instance:
-    hostname: msph-discovery-server
   client:
     register-with-eureka: false
     fetch-registry: false

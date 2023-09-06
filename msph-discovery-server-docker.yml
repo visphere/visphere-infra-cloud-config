@@ -2,6 +2,8 @@ server:
   port: ${MSPH_DOCKER_EUREKA_PORT}
 
 eureka:
+  instance:
+    hostname: msph-discovery-server
   client:
     service-url:
       defaultZone: http://msph-discovery-server:${server.port}/eureka/

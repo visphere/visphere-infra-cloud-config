@@ -32,7 +32,8 @@ spring:
 
 eureka:
   client:
-    register-with-eureka: false
+    register-with-eureka: true
+    fetch-registry: true
 
 management:
   tracing:

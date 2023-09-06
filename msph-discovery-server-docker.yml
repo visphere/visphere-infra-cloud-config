@@ -1,5 +1,5 @@
 server:
-  port: ${MSPH_DOCKER_EUREKA_PORT:8761}
+  port: ${MSPH_DOCKER_EUREKA_PORT}
 
 eureka:
   client:

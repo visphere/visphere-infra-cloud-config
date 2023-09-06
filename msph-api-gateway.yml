@@ -36,6 +36,8 @@ eureka:
     fetch-registry: true
     healthcheck:
       enabled: true
+  instance:
+    lease-renewal-interval-in-seconds: 20
 
 management:
   tracing:

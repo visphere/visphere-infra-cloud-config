@@ -9,7 +9,7 @@ spring:
               - 'http://localhost:${ENV_DEV_MSPH_CLIENT_PORT}'
 
 server:
-  port: ${ENV_DEV_MSPH_API_GATEWAY_PORT:8080}
+  port: ${ENV_DEV_MSPH_API_GATEWAY_PORT}
 
 eureka:
   client:

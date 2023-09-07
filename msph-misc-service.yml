@@ -15,8 +15,8 @@ eureka:
 
 application:
   captcha:
-    secret-key: ${V_MSPH_SECRET_KEY}
-    dev-site-key: ${V_MSPH_DEV_SITE_KEY}
+    secretKey: ${captcha.secretKey}
+    devSiteKey: ${captcha.devSiteKey}
 
 management:
   tracing:

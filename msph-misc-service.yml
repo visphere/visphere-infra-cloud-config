@@ -1,16 +1,6 @@
 spring:
   application:
     name: msph-misc-service
-  cloud:
-    vault:
-      uri: http://localhost:8200
-      token: ${ENV_MSPH_VAULT_TOKEN}
-      authentication: TOKEN
-      kv:
-        backend: moonsphere
-        default-context: ${spring.application.name}
-  banner:
-    location: classpath:spring/banner.txt
 
 eureka:
   client:

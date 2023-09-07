@@ -1,6 +1,16 @@
 spring:
   application:
     name: msph-misc-service
+  config:
+    import: optional:vault://
+  cloud:
+    vault:
+      uri: http://localhost:8200
+      token: ${ENV_MSPH_VAULT_TOKEN}
+      authentication: TOKEN
+      kv:
+        backend: moonsphere
+        default-context: ${spring.application.name}
   banner:
     location: classpath:spring/banner.txt
 
@@ -19,6 +29,14 @@ application:
     devSiteKey: ${V_CAPTCHA_SITE_KEY}
 
 management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh,env
+  endpoint:
+    env:
+      post:
+        enabled: true
   tracing:
     sampling:
       probability: 1.0

@@ -13,6 +13,11 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 20
 
+application:
+  captcha:
+    secretkey: ${vaultSecretkey}
+    devSitekey: ${vaultDevSitekey}
+
 management:
   tracing:
     sampling:

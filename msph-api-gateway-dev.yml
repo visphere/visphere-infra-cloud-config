@@ -5,13 +5,13 @@ spring:
         corsConfigurations:
           '[/**]':
             allowedOrigins:
-              - 'http://localhost:${ENV_DEV_MSPH_LANDING_PORT}'
-              - 'http://localhost:${ENV_DEV_MSPH_CLIENT_PORT}'
+              - 'http://localhost:${MSPH_DEV_LANDING_PORT:6052}'
+              - 'http://localhost:${MSPH_DEV_CLIENT_PORT:6053}'
 
 server:
-  port: ${ENV_DEV_MSPH_API_GATEWAY_PORT}
+  port: ${MSPH_DEV_API_GATEWAY_PORT:6055}
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:${ENV_DEV_MSPH_DISCOVERY_SERVER_PORT}/eureka
+      defaultZone: http://localhost:${MSPH_DEV_EUREKA_SERVER_PORT:8761}/eureka

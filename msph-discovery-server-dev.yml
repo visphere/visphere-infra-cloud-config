@@ -1,5 +1,5 @@
 server:
-  port: ${ENV_DEV_MSPH_DISCOVERY_SERVER_PORT}
+  port: ${MSPH_DEV_EUREKA_SERVER_PORT:8761}
 
 eureka:
   instance:

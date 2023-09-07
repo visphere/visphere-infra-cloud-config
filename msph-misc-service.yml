@@ -13,7 +13,7 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 20
 
-application:
+moonsphere:
   captcha:
     secretKey: ${V_CAPTCHA_SECRET_KEY}
     devSiteKey: ${V_CAPTCHA_SITE_KEY}

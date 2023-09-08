@@ -8,14 +8,6 @@ spring:
       discovery:
         locator:
           enabled: true
-      globalcors:
-        corsConfigurations:
-          '[/**]':
-            allowedMethods:
-              - GET
-              - POST
-              - PUT
-              - DELETE
       routes:
         - id: account
           uri: lb://msph-account-service

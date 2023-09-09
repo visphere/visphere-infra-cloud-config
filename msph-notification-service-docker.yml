@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  mail:
+    port: 1025
+    host: msph-mailhog-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${V_EUREKA_USERNAME}:${V_EUREKA_PASSWORD}@msph-discovery-server:8761/eureka

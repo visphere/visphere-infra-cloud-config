@@ -21,6 +21,10 @@ spring:
           uri: lb://msph-misc-service
           predicates:
             - Path=/api/v1/misc/**
+        - id: notification
+          uri: lb://msph-notification-service
+          predicates:
+            - Path=/api/v1/notification/**
 
 eureka:
   client:

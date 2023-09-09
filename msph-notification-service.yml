@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: msph-notification-service
+  mail:
+    protocol: smtp
+    username: ''
+    password: ''
+    properties:
+      smtp:
+        starttls:
+          required: false
+      mail:
+        smtp:
+          ssl:
+            enable: false
+          auth: false
+          starttls:
+            enable: false
+  banner:
+    location: classpath:spring/banner.txt
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    healthcheck:
+      enabled: true
+  instance:
+    lease-renewal-interval-in-seconds: 20
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh,env
+  endpoint:
+    env:
+      post:
+        enabled: true
+  tracing:
+    sampling:
+      probability: 1.0

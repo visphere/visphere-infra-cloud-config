@@ -3,8 +3,8 @@ spring:
     name: msph-notification-service
   mail:
     protocol: smtp
-    username: ''
-    password: ''
+    username: 'mailhoguser'
+    password: 'root'
     properties:
       smtp:
         starttls:

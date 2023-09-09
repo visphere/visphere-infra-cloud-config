@@ -1,6 +1,10 @@
 server:
   port: 8080
 
+spring:
+  datasource:
+    url: jdbc:postgresql://msph-auth-service-db:5432/msph_auth_service_db
+
 eureka:
   client:
     service-url:

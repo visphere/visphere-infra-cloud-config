@@ -32,6 +32,14 @@ eureka:
     lease-renewal-interval-in-seconds: 20
 
 management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh,env
+  endpoint:
+    env:
+      post:
+        enabled: true
   tracing:
     sampling:
       probability: 1.0

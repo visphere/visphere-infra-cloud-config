@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:${MSPH_DEV_AUTH_POSTGRES_PORT:7502}/msph_auth_service_db
+    url: jdbc:postgresql://localhost:${MSPH_DEV_POSTGRESQL_PORT:7500}/msph_auth
   liquibase:
     contexts: lq_dev
   jpa:

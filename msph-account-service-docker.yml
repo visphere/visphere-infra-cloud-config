@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://msph-account-service-db:5432/msph_account_service_db
+    url: jdbc:postgresql://msph-postgresql-db:5432/msph_account
   liquibase:
     contexts: lq_docker
 

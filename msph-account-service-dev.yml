@@ -4,6 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:${MSPH_DEV_ACCOUNT_POSTGRES_PORT:7501}/msph_account_service_db
+  liquibase:
+    contexts: lq_dev
   jpa:
     show-sql: true
 

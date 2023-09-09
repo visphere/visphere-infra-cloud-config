@@ -4,6 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://msph-account-service-db:5432/msph_account_service_db
+  liquibase:
+    contexts: lq_docker
 
 eureka:
   client:

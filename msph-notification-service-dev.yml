@@ -3,7 +3,7 @@ server:
 
 spring:
   mail:
-    port: ${MSPH_DEV_MAILHOG_PORT:1025}
+    port: ${MSPH_DEV_MAILHOG_PORT:7600}
     host: localhost
 
 eureka:

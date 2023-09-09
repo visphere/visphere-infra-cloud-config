@@ -4,7 +4,7 @@ server:
 spring:
   mail:
     port: 1025
-    host: msph-mailhog-server
+    host: msph-mailhog
 
 eureka:
   client:

@@ -1,47 +1,15 @@
 spring:
   application:
     name: msph-account-service
-  datasource:
-    username: ${V_POSTGRES_USERNAME}
-    password: ${V_POSTGRES_PASSWORD}
-    driver-class-name: org.postgresql.Driver
-  mvc:
-    log-resolved-exception: false
-    throw-exception-if-no-handler-found: true
-  liquibase:
-    drop-first: false
-    enabled: true
-    database-change-log-lock-table: _liquibase_changelog_lock
-    database-change-log-table: _liquibase_changelog
-    change-log: classpath:db/changelog/db.changelog.cfg.xml
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
-    hibernate:
-      ddl-auto: none
-  banner:
-    location: classpath:spring/banner.txt
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    healthcheck:
-      enabled: true
-  instance:
-    lease-renewal-interval-in-seconds: 20
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,info,refresh,env
-  endpoint:
-    env:
-      post:
-        enabled: true
-  tracing:
-    sampling:
-      probability: 1.0
+  profiles:
+    group:
+      dev:
+        - 'microservice-dev'
+        - 'postgresql-db'
+        - 'postgresql-db-dev'
+        - 'eureka-config'
+      docker:
+        - 'microservice-docker'
+        - 'postgresql-db'
+        - 'postgresql-db-docker'
+        - 'eureka-config'

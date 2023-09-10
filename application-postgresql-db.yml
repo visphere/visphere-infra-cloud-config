@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: ${V_POSTGRES_USERNAME}
+    password: ${V_POSTGRES_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    drop-first: false
+    enabled: true
+    database-change-log-lock-table: _liquibase_changelog_lock
+    database-change-log-table: _liquibase_changelog
+    change-log: classpath:db/changelog/db.changelog.cfg.xml
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+    hibernate:
+      ddl-auto: none

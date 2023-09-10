@@ -1,8 +1,12 @@
 spring:
   application:
     name: msph-api-gateway
-  banner:
-    location: classpath:spring/banner.txt
+  profiles:
+    group:
+      dev:
+        - 'eureka-config'
+      docker:
+        - 'eureka-config'
   cloud:
     gateway:
       discovery:
@@ -25,25 +29,3 @@ spring:
           uri: lb://msph-notification-service
           predicates:
             - Path=/api/v1/notification/**
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    healthcheck:
-      enabled: true
-  instance:
-    lease-renewal-interval-in-seconds: 20
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,info,refresh,env
-  endpoint:
-    env:
-      post:
-        enabled: true
-  tracing:
-    sampling:
-      probability: 1.0

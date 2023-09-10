@@ -1,7 +1,0 @@
-server:
-  port: 8080
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://${V_EUREKA_USERNAME}:${V_EUREKA_PASSWORD}@msph-discovery-server:8761/eureka

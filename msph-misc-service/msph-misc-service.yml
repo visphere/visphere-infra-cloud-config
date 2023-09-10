@@ -1,32 +1,16 @@
 spring:
   application:
     name: msph-misc-service
-  banner:
-    location: classpath:spring/banner.txt
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    healthcheck:
-      enabled: true
-  instance:
-    lease-renewal-interval-in-seconds: 20
+  profiles:
+    group:
+      dev:
+        - 'microservice-dev'
+        - 'eureka-config'
+      docker:
+        - 'microservice-docker'
+        - 'eureka-config'
 
 moonsphere:
   captcha:
     secretKey: ${V_CAPTCHA_SECRET_KEY}
     devSiteKey: ${V_CAPTCHA_SITE_KEY}
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,info,refresh,env
-  endpoint:
-    env:
-      post:
-        enabled: true
-  tracing:
-    sampling:
-      probability: 1.0

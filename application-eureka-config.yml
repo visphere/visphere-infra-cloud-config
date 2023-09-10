@@ -6,7 +6,3 @@ eureka:
       enabled: true
   instance:
     lease-renewal-interval-in-seconds: 20
-
-spring:
-  banner:
-    location: classpath:spring/banner.txt

@@ -2,8 +2,12 @@ spring:
   application:
     name: msph-notification-service
   profiles:
-    active:
-      - 'eureka'
+    default: 'eureka'
+    group:
+      dev:
+        - 'eureka'
+      docker:
+        - 'eureka'
   mail:
     protocol: smtp
     username: 'mailhoguser'

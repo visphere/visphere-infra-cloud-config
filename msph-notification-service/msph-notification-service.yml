@@ -3,11 +3,11 @@ spring:
     name: msph-notification-service
   profiles:
     default: 'eureka'
-    group:
-      dev:
-        - 'eureka'
-      docker:
-        - 'eureka'
+    # group:
+    #   dev:
+    #     - 'eureka'
+    #   docker:
+    #     - 'eureka'
   mail:
     protocol: smtp
     username: 'mailhoguser'

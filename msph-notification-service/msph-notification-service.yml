@@ -1,6 +1,9 @@
 spring:
   application:
     name: msph-notification-service
+  profiles:
+    active:
+      - 'eureka'
   mail:
     protocol: smtp
     username: 'mailhoguser'
@@ -16,27 +19,3 @@ spring:
           auth: false
           starttls:
             enable: false
-  banner:
-    location: classpath:spring/banner.txt
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    healthcheck:
-      enabled: true
-  instance:
-    lease-renewal-interval-in-seconds: 20
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,info,refresh,env
-  endpoint:
-    env:
-      post:
-        enabled: true
-  tracing:
-    sampling:
-      probability: 1.0

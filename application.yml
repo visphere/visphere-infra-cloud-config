@@ -1,0 +1,16 @@
+spring:
+  banner:
+    location: classpath:spring/banner.txt
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh,env
+  endpoint:
+    env:
+      post:
+        enabled: true
+  tracing:
+    sampling:
+      probability: 1.0

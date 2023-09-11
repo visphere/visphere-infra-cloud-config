@@ -8,8 +8,8 @@ server:
 
 moonsphere:
   allowedOrigins:
-    - 'http://localhost:${MSPH_DOCKER_LANDING_PORT:5052}'
-    - 'http://localhost:${MSPH_DOCKER_CLIENT_PORT:5053}'
+    - http://localhost:${MSPH_DOCKER_LANDING_PORT:5052}
+    - http://localhost:${MSPH_DOCKER_CLIENT_PORT:5053}
 
 eureka:
   client:

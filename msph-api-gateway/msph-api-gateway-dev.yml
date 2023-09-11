@@ -6,6 +6,11 @@ moonsphere:
 server:
   port: ${MSPH_DEV_API_GATEWAY_PORT:6055}
 
+moonsphere:
+  allowedOrigins:
+    - 'http://localhost:${MSPH_DEV_LANDING_PORT:6052}'
+    - 'http://localhost:${MSPH_DEV_CLIENT_PORT:6053}'
+
 eureka:
   client:
     service-url:

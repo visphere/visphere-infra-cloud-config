@@ -1,4 +1,6 @@
 server:
+  servlet:
+    context-path: /
   port: ${MSPH_DEV_API_GATEWAY_PORT:6055}
 
 springdoc:

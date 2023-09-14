@@ -1,6 +1,31 @@
 server:
   port: ${MSPH_DEV_API_GATEWAY_PORT:6055}
 
+springdoc:
+  enable-native-support: true
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    config-url: /v3/api-docs/swagger-config
+    urls:
+      - url: /v3/api-docs
+        name: API Gateway Service
+        primaryName: API Gateway Service
+      - url: /account-service/v3/api-docs
+        name: Account Service
+        primaryName: Account Service
+      - url: /auth-service/v3/api-docs
+        name: Auth Service
+        primaryName: Auth Service
+      - url: /misc-service/v3/api-docs
+        name: Misc Service
+        primaryName: Misc Service
+      - url: /notification-service/v3/api-docs
+        name: Notification Service
+        primaryName: Notification Service
+
 moonsphere:
   cors:
     allowedOrigins:

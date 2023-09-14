@@ -15,16 +15,16 @@ springdoc:
       - url: /v3/api-docs
         name: API Gateway Service
         primaryName: API Gateway Service
-      - url: /account-service/v3/api-docs
+      - url: /msph-account-service/v3/api-docs
         name: Account Service
         primaryName: Account Service
-      - url: /auth-service/v3/api-docs
+      - url: /msph-auth-service/v3/api-docs
         name: Auth Service
         primaryName: Auth Service
-      - url: /misc-service/v3/api-docs
+      - url: /msph-misc-service/v3/api-docs
         name: Misc Service
         primaryName: Misc Service
-      - url: /notification-service/v3/api-docs
+      - url: /msph-notification-service/v3/api-docs
         name: Notification Service
         primaryName: Notification Service
 

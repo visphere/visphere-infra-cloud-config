@@ -11,6 +11,6 @@ moonsphere:
 
 springdoc:
   api-docs:
-    path: /account-service/v3/api-docs
+    path: /msph-account-service/v3/api-docs
   swagger-ui:
-    path: /account-service/swagger-ui.html
+    path: /msph-account-service/swagger-ui.html

@@ -1,0 +1,12 @@
+moonsphere:
+  openapi:
+    service:
+      title: Misc service
+      version: 1.0.0
+      url: http://localhost:${MSPH_DEV_API_GATEWAY_PORT:6055}
+
+springdoc:
+  api-docs:
+    path: /misc-service/v3/api-docs
+  swagger-ui:
+    path: /misc-service/swagger-ui.html

@@ -23,7 +23,7 @@ springdoc:
         primaryName: Misc Service
       - url: /msph-multimedia-service/v3/api-docs
         name: Multimedia Service
-        primaryName: Notification Service
+        primaryName: Multimedia Service
       - url: /msph-notification-service/v3/api-docs
         name: Notification Service
         primaryName: Notification Service

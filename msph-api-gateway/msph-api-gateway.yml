@@ -25,6 +25,10 @@ spring:
           uri: lb://msph-misc-service
           predicates:
             - Path=/api/v1/misc/**
+        - id: multimedia
+          uri: lb://msph-multimedia-service
+          predicates:
+            - Path=/api/v1/multimedia/**
         - id: notification
           uri: lb://msph-notification-service
           predicates:

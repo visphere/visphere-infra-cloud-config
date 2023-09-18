@@ -1,0 +1,12 @@
+moonsphere:
+  openapi:
+    service:
+      title: Multimedia service
+      version: 1.0.0
+      url: http://localhost:${MSPH_DEV_API_GATEWAY_PORT:6055}
+
+springdoc:
+  api-docs:
+    path: /msph-multimedia-service/v3/api-docs
+  swagger-ui:
+    path: /msph-multimedia-service/swagger-ui.html

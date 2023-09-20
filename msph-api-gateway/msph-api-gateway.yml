@@ -33,3 +33,8 @@ spring:
           uri: lb://msph-notification-service
           predicates:
             - Path=/api/v1/notification/**
+
+moonsphere:
+  i18n:
+    availableLanguages: pl,en-US
+    defaultLanguage: pl

@@ -1,3 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://msph-postgresql-db:5432/msph_account

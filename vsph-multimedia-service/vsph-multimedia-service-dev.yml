@@ -1,0 +1,12 @@
+visphere:
+  openapi:
+    service:
+      title: Multimedia service
+      version: 1.0.0
+      url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
+
+springdoc:
+  api-docs:
+    path: /vsph-multimedia-service/v3/api-docs
+  swagger-ui:
+    path: /vsph-multimedia-service/swagger-ui.html

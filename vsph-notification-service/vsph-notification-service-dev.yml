@@ -1,0 +1,17 @@
+spring:
+  mail:
+    port: ${VSPH_DEV_MAILHOG_PORT:7600}
+    host: localhost
+
+visphere:
+  openapi:
+    service:
+      title: Notification service
+      version: 1.0.0
+      url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
+
+springdoc:
+  api-docs:
+    path: /vsph-notification-service/v3/api-docs
+  swagger-ui:
+    path: /vsph-notification-service/swagger-ui.html

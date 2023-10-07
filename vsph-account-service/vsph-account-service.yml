@@ -1,6 +1,6 @@
 spring:
   application:
-    name: msph-auth-service
+    name: vsph-account-service
   profiles:
     group:
       dev:

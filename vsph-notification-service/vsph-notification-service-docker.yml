@@ -1,4 +1,4 @@
 spring:
   mail:
     port: 1025
-    host: msph-mailhog
+    host: vsph-mailhog

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: msph-api-gateway
+    name: vsph-api-gateway
   profiles:
     group:
       dev:
@@ -14,27 +14,27 @@ spring:
           enabled: true
       routes:
         - id: account
-          uri: lb://msph-account-service
+          uri: lb://vsph-account-service
           predicates:
             - Path=/api/v1/account/**
         - id: auth
-          uri: lb://msph-auth-service
+          uri: lb://vsph-auth-service
           predicates:
             - Path=/api/v1/auth/**
         - id: misc
-          uri: lb://msph-misc-service
+          uri: lb://vsph-misc-service
           predicates:
             - Path=/api/v1/misc/**
         - id: multimedia
-          uri: lb://msph-multimedia-service
+          uri: lb://vsph-multimedia-service
           predicates:
             - Path=/api/v1/multimedia/**
         - id: notification
-          uri: lb://msph-notification-service
+          uri: lb://vsph-notification-service
           predicates:
             - Path=/api/v1/notification/**
 
-moonsphere:
+visphere:
   i18n:
     availableLanguages: pl,en-US
     defaultLanguage: pl

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: msph-misc-service
+    name: vsph-multimedia-service
   profiles:
     group:
       dev:
@@ -10,7 +10,7 @@ spring:
         - 'microservice-docker'
         - 'eureka-config'
 
-moonsphere:
+visphere:
   captcha:
     secretKey: ${V_CAPTCHA_SECRET_KEY}
     devSiteKey: ${V_CAPTCHA_SITE_KEY}

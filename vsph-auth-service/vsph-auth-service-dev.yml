@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:${VSPH_DEV_POSTGRESQL_PORT:7500}/vsph_auth
+
+visphere:
+  openapi:
+    service:
+      title: Auth service
+      version: 1.0.0
+      url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
+
+springdoc:
+  api-docs:
+    path: /vsph-auth-service/v3/api-docs
+  swagger-ui:
+    path: /vsph-auth-service/swagger-ui.html

@@ -3,10 +3,10 @@ server:
 
 eureka:
   instance:
-    hostname: msph-discovery-server
+    hostname: vsph-discovery-server
   client:
     service-url:
-      defaultZone: http://${V_EUREKA_USERNAME}:${V_EUREKA_PASSWORD}@msph-discovery-server:${server.port}/eureka/
+      defaultZone: http://${V_EUREKA_USERNAME}:${V_EUREKA_PASSWORD}@vsph-discovery-server:${server.port}/eureka/
 
 spring:
   security:

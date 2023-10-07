@@ -1,6 +1,12 @@
 server:
   port: 8080
 
+visphere:
+  cors:
+    allowedOrigins:
+      - http://localhost:${VSPH_DOCKER_LANDING_PORT:5052}
+      - http://localhost:${VSPH_DOCKER_CLIENT_PORT:5053}
+
 eureka:
   client:
     service-url:

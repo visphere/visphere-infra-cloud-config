@@ -1,6 +1,6 @@
 spring:
   application:
-    name: msph-discovery-server
+    name: vsph-discovery-server
 
 eureka:
   client:

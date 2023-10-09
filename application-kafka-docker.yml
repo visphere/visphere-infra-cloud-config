@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrap-servers: vsph-kafka-broker:9093
+    bootstrap-servers: vsph-kafka-broker:9094
     ssl:
       trust-store-password: ${V_KAFKA_BROKER_PASSWORD}
       key-store-password: ${V_KAFKA_BROKER_PASSWORD}

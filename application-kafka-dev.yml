@@ -8,6 +8,4 @@ spring:
     properties:
       sasl:
         jaas:
-          config: org.apache.kafka.common.security.plain.PlainLoginModule required \
-            username="${VSPH_KAFKA_CLIENT_USERNAME}" \
-            password="${VSPH_KAFKA_CLIENT_PASSWORD}";
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required username="${VSPH_KAFKA_CLIENT_USERNAME}" password="${VSPH_KAFKA_CLIENT_PASSWORD}";

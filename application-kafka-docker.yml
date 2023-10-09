@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    bootstrap-servers: vsph-kafka-broker:9093
+    ssl:
+      trust-store-password: ${V_KAFKA_BROKER_PASSWORD}
+      key-store-password: ${V_KAFKA_BROKER_PASSWORD}
+      key-password: ${V_KAFKA_BROKER_PASSWORD}
+    properties:
+      sasl:
+        jaas:
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required \
+            username="${V_KAFKA_CLIENT_USERNAME}" \
+            password="${V_KAFKA_CLIENT_PASSWORD}";

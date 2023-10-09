@@ -4,7 +4,7 @@ spring:
       protocol: SASL_SSL
     ssl:
       trust-store-location: file:${VSPH_KAFKA_CERTS_CONTAINER}/kafka.truststore.jks
-      key-store-location: file:${VSPH_KAFKA_CERTS_CONTAINER}/client.keystore.jks
+      key-store-location: file:${VSPH_KAFKA_CERTS_CONTAINER}/kafka.keystore.jks
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer

@@ -5,6 +5,11 @@ spring:
       trust-store-password: ${V_KAFKA_BROKER_PASSWORD}
       key-store-password: ${V_KAFKA_BROKER_PASSWORD}
       key-password: ${V_KAFKA_BROKER_PASSWORD}
+    consumer:
+      group-id: vsph-docker-g
+      client-id: vsph-docker-c
+    producer:
+      client-id: vsph-docker-c
     properties:
       sasl:
         jaas:

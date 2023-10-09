@@ -5,6 +5,11 @@ spring:
       trust-store-password: ${VSPH_KAFKA_BROKER_PASSWORD}
       key-store-password: ${VSPH_KAFKA_BROKER_PASSWORD}
       key-password: ${VSPH_KAFKA_BROKER_PASSWORD}
+    consumer:
+      group-id: vsph-local-g
+      client-id: vsph-local-c
+    producer:
+      client-id: vsph-local-c
     properties:
       sasl:
         jaas:

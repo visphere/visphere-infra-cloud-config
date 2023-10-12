@@ -16,9 +16,9 @@ spring:
           json:
             trusted:
               packages:
-                - 'pl.visphere.account.*'
-                - 'pl.visphere.auth.*'
-                - 'pl.visphere.lib.*'
+                - 'pl.visphere.account'
+                - 'pl.visphere.auth'
+                - 'pl.visphere.lib'
     streams:
       replication-factor: 1
     jaas:

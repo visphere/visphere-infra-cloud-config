@@ -17,5 +17,6 @@ spring:
 
 visphere:
   kafka:
+    group-id: ${spring.kafka.consumer.group-id}
     topic:
       check-user: local-check-user

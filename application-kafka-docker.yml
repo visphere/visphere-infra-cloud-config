@@ -21,5 +21,6 @@ spring:
 
 visphere:
   kafka:
+    group-id: ${spring.kafka.consumer.group-id}
     topic:
       check-user: docker-check-user

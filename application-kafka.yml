@@ -16,7 +16,7 @@ spring:
           json:
             trusted:
               packages:
-                - 'pl.visphere.accounts.*'
+                - 'pl.visphere.account.*'
                 - 'pl.visphere.auth.*'
                 - 'pl.visphere.lib.*'
     streams:

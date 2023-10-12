@@ -14,3 +14,8 @@ spring:
       sasl:
         jaas:
           config: org.apache.kafka.common.security.plain.PlainLoginModule required username="${VSPH_KAFKA_CLIENT_USERNAME}" password="${VSPH_KAFKA_CLIENT_PASSWORD}";
+
+visphere:
+  kafka:
+    topic:
+      check-user: local-check-user

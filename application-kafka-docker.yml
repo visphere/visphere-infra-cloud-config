@@ -18,3 +18,8 @@ spring:
         endpoint:
           identification:
             algorithm: ''
+
+visphere:
+  kafka:
+    topic:
+      check-user: docker-check-user

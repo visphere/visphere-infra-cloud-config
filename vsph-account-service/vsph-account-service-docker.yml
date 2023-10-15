@@ -1,3 +1,9 @@
 spring:
   datasource:
     url: jdbc:postgresql://vsph-postgresql-db:5432/vsph_account
+
+visphere:
+  jwt:
+    secret-key: ${V_JWT_SECRET_KEY}
+    issuer: ${V_JWT_ISSUER}
+    audience: ${V_JWT_AUDIENCE}

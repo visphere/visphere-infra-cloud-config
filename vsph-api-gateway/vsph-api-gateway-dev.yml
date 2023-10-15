@@ -30,9 +30,13 @@ springdoc:
 
 visphere:
   cors:
-    allowedOrigins:
+    allowed-origins:
       - http://localhost:${VSPH_DEV_LANDING_PORT:6052}
       - http://localhost:${VSPH_DEV_CLIENT_PORT:6053}
+  jwt:
+    secret-key: ${VSPH_JWT_SECRET_KEY}
+    issuer: ${VSPH_JWT_ISSUER}
+    audience: ${VSPH_JWT_AUDIENCE}
 
 eureka:
   client:

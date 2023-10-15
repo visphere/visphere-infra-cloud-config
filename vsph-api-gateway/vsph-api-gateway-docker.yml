@@ -3,9 +3,13 @@ server:
 
 visphere:
   cors:
-    allowedOrigins:
+    allowed-origins:
       - http://localhost:${VSPH_DOCKER_LANDING_PORT:5052}
       - http://localhost:${VSPH_DOCKER_CLIENT_PORT:5053}
+  jwt:
+    secret-key: ${V_JWT_SECRET_KEY}
+    issuer: ${V_JWT_ISSUER}
+    audience: ${V_JWT_AUDIENCE}
 
 eureka:
   client:

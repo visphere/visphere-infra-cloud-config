@@ -24,3 +24,4 @@ visphere:
     group-id: ${spring.kafka.consumer.group-id}
     topic:
       check-user: docker-check-user
+      validate-data: docker-validate-data

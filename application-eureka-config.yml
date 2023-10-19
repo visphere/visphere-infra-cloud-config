@@ -6,3 +6,4 @@ eureka:
       enabled: true
   instance:
     lease-renewal-interval-in-seconds: 20
+    instance-id: "${spring.application.name}:${random.value}"

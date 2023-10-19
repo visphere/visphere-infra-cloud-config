@@ -6,9 +6,11 @@ spring:
       dev:
         - 'microservice-dev'
         - 'eureka-config'
+        - 'kafka-dev'
       docker:
         - 'microservice-docker'
         - 'eureka-config'
+        - 'kafka-docker'
 
 visphere:
   captcha:

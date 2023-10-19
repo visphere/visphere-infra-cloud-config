@@ -6,10 +6,12 @@ spring:
       dev:
         - 'microservice-dev'
         - 'eureka-config'
+        - 'kafka'
         - 'kafka-dev'
       docker:
         - 'microservice-docker'
         - 'eureka-config'
+        - 'kafka'
         - 'kafka-docker'
 
 visphere:

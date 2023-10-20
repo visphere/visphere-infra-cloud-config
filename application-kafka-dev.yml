@@ -7,9 +7,6 @@ spring:
       key-password: ${VSPH_KAFKA_BROKER_PASSWORD}
     consumer:
       group-id: vsph-local-g
-      client-id: vsph-local-c
-    producer:
-      client-id: vsph-local-c
     properties:
       sasl:
         jaas:

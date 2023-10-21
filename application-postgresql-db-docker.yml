@@ -1,3 +1,10 @@
 spring:
   liquibase:
     contexts: lq_docker
+  data:
+    redis:
+      host: vsph-redis
+      password: ${V_REDIS_PASSWORD}
+      port: 6379
+      ssl:
+        enabled: false

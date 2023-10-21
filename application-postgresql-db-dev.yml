@@ -3,3 +3,10 @@ spring:
     contexts: lq_dev
   jpa:
     show-sql: true
+  data:
+    redis:
+      host: localhost
+      password: ${VSPH_REDIS_PASSWORD}
+      port: ${VSPH_DEV_REDIS_PORT}
+      ssl:
+        enabled: false

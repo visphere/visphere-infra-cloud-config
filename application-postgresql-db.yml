@@ -16,3 +16,7 @@ spring:
         physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
     hibernate:
       ddl-auto: none
+  cache:
+    redis:
+      time-to-live: 2h
+      key-prefix: '${spring.application.name}::'

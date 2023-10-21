@@ -17,4 +17,4 @@ visphere:
     group-id: ${spring.kafka.consumer.group-id}
     topic:
       check-user: local-check-user
-      jwt-is-on-blacklist: lcoal-jwt-is-on-blacklist
+      jwt-is-on-blacklist: local-jwt-is-on-blacklist

@@ -20,4 +20,4 @@ spring:
 
 visphere:
   s3:
-    host: localhost:${VSPH_DEV_S3_API_PORT}
+    host: http://localhost:${VSPH_DEV_S3_API_PORT}

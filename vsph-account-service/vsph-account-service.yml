@@ -17,3 +17,7 @@ spring:
         - 'kafka'
         - 'kafka-docker'
         - 'eureka-config'
+
+visphere:
+  s3:
+    host: localhost:${VSPH_DEV_S3_API_PORT}

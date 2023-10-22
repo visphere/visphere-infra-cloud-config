@@ -22,3 +22,4 @@ visphere:
     topic:
       check-user: docker-check-user
       jwt-is-on-blacklist: docker-jwt-is-on-blacklist
+      account-details: docker-account-details

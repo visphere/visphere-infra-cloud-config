@@ -18,3 +18,4 @@ visphere:
     topic:
       check-user: local-check-user
       jwt-is-on-blacklist: local-jwt-is-on-blacklist
+      account-details: local-account-details

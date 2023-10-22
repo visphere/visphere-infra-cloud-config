@@ -20,3 +20,7 @@ visphere:
       jwt-is-on-blacklist: local-jwt-is-on-blacklist
       account-details: local-account-details
       persist-user: local-persist-user
+      generate-ota-activate-account: local-generate-ota-activate-account
+      generate-ota-change-password: local-generate-ota-change-password
+      check-ota: local-check-ota
+      generate-default-user-profile: local-generate-default-user-profile

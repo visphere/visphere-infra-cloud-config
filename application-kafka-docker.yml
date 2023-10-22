@@ -24,3 +24,7 @@ visphere:
       jwt-is-on-blacklist: docker-jwt-is-on-blacklist
       account-details: docker-account-details
       persist-user: docker-persist-user
+      generate-ota-activate-account: docker-generate-ota-activate-account
+      generate-ota-change-password: docker-generate-ota-change-password
+      check-ota: docker-check-ota
+      generate-default-user-profile: docker-generate-default-user-profile

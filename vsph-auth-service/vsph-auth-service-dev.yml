@@ -13,9 +13,9 @@ visphere:
     issuer: ${VSPH_JWT_ISSUER}
     audience: ${VSPH_JWT_AUDIENCE}
     access:
-      life-minutes: 20
+      life-minutes: 10
     refresh:
-      life-hours: 48
+      life-days: 60
 
 springdoc:
   api-docs:

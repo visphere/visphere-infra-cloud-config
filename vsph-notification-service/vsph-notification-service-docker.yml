@@ -1,4 +1,6 @@
 spring:
+  datasource:
+    url: jdbc:postgresql://vsph-postgresql-db:5432/vsph_notification
   mail:
     port: 1025
     host: vsph-mailhog

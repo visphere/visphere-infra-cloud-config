@@ -1,4 +1,6 @@
 spring:
+  datasource:
+    url: jdbc:postgresql://localhost:${VSPH_DEV_POSTGRESQL_PORT:7500}/vsph_notification
   mail:
     port: ${VSPH_DEV_MAILHOG_PORT:7600}
     host: localhost

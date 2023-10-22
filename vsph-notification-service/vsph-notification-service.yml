@@ -5,9 +5,17 @@ spring:
     group:
       dev:
         - 'microservice-dev'
+        - 'postgresql-db'
+        - 'postgresql-db-dev'
+        - 'kafka'
+        - 'kafka-dev'
         - 'eureka-config'
       docker:
         - 'microservice-docker'
+        - 'postgresql-db'
+        - 'postgresql-db-docker'
+        - 'kafka'
+        - 'kafka-docker'
         - 'eureka-config'
   mail:
     protocol: smtp

@@ -19,3 +19,4 @@ visphere:
       check-user: local-check-user
       jwt-is-on-blacklist: local-jwt-is-on-blacklist
       account-details: local-account-details
+      persist-user: local-persist-user

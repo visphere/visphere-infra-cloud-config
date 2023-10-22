@@ -13,7 +13,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-        physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+        physical_naming_strategy: pl.visphere.lib.db.VisphereHibernatePhysicalNamingStrategy
     hibernate:
       ddl-auto: none
   cache:

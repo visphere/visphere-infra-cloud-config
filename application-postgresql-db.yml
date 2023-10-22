@@ -19,4 +19,3 @@ spring:
   cache:
     redis:
       time-to-live: 2h
-      key-prefix: '${spring.application.name}::'

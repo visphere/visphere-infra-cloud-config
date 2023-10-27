@@ -2,4 +2,4 @@
 
 # Visphere Infra Cloud Config
 
-in progress
+Spring cloud config for Visphere microservices infrastructure.

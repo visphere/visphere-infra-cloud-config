@@ -4,6 +4,11 @@ visphere:
       title: Multimedia service
       version: 1.0.0
       url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
+  s3:
+    url: http://localhost:${VSPH_DEV_S3_API_PORT}
+    access-key: ${VSPH_S3_USERNAME}
+    secret-key: ${VSPH_S3_PASSWORD}
+    region: eu-central-1
 
 springdoc:
   api-docs:

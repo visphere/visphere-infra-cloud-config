@@ -8,14 +8,6 @@ visphere:
       title: Account service
       version: 1.0.0
       url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
-  jwt:
-    secret-key: ${VSPH_JWT_SECRET_KEY}
-    issuer: ${VSPH_JWT_ISSUER}
-    audience: ${VSPH_JWT_AUDIENCE}
-    access:
-      life-minutes: 20
-    refresh:
-      life-hours: 48
 
 springdoc:
   api-docs:

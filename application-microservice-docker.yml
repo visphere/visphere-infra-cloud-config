@@ -5,3 +5,13 @@ eureka:
   client:
     service-url:
       defaultZone: http://${V_EUREKA_USERNAME}:${V_EUREKA_PASSWORD}@vsph-discovery-server:8761/eureka
+
+visphere:
+  jwt:
+    secret-key: ${V_JWT_SECRET_KEY}
+    issuer: ${V_JWT_ISSUER}
+    audience: ${V_JWT_AUDIENCE}
+    access:
+      life-minutes: 20
+    refresh:
+      life-hours: 48

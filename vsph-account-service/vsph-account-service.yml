@@ -21,7 +21,7 @@ spring:
 visphere:
   kafka:
     reply-topics:
-      create-user,
-      activate-user,
-      email-activate-account,
-      generate-default-user-profile
+      create-user: create-user
+      activate-user: activate-user
+      email-activate-account: email-activate-account
+      generate-default-user-profile: generate-default-user-profile

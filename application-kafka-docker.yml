@@ -20,11 +20,12 @@ visphere:
   kafka:
     group-id: ${spring.kafka.consumer.group-id}
     topic:
-      check-user: docker-check-user
       jwt-is-on-blacklist: docker-jwt-is-on-blacklist
       account-details: docker-account-details
-      persist-user: docker-persist-user
-      generate-ota-activate-account: docker-generate-ota-activate-account
-      generate-ota-change-password: docker-generate-ota-change-password
-      check-ota: docker-check-ota
+      create-user: docker-create-user
+      activate-user: docker-activate-user
+      check-user: docker-check-user
+      email-activate-account: docker-email-activate-account
+      email-change-password: docker-email-change-password
+      email-new-account: docker-email-new-account
       generate-default-user-profile: docker-generate-default-user-profile

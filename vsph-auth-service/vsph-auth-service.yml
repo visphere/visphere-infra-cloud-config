@@ -17,3 +17,9 @@ spring:
         - 'kafka'
         - 'kafka-docker'
         - 'eureka-config'
+
+visphere:
+  kafka:
+    reply-topics:
+      - account-details
+      - email-change-password

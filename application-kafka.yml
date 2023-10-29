@@ -25,3 +25,9 @@ spring:
     properties:
       sasl:
         mechanism: PLAIN
+
+visphere:
+  kafka:
+    reply-topics:
+      - jwt-is-on-blacklist
+      - check-user

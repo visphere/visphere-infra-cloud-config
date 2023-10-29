@@ -28,6 +28,6 @@ spring:
 
 visphere:
   kafka:
-    reply-topics:
+    reply-topic:
       jwt-is-on-blacklist: jwt-is-on-blacklist
       check-user: check-user

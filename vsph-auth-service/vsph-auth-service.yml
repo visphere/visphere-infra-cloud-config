@@ -20,6 +20,6 @@ spring:
 
 visphere:
   kafka:
-    reply-topics:
+    reply-topic:
       account-details: account-details
       email-change-password: email-change-password

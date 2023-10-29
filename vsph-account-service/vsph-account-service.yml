@@ -20,7 +20,7 @@ spring:
 
 visphere:
   kafka:
-    reply-topics:
+    reply-topic:
       create-user: create-user
       activate-user: activate-user
       email-activate-account: email-activate-account

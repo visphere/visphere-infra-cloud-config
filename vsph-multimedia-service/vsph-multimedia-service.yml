@@ -13,3 +13,8 @@ spring:
         - 'kafka'
         - 'kafka-docker'
         - 'eureka-config'
+
+visphere:
+  s3:
+    region: eu-central-1
+    path-style-access-enabled: true

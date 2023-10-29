@@ -8,8 +8,6 @@ visphere:
     url: http://localhost:${VSPH_DEV_S3_API_PORT}
     access-key: ${VSPH_S3_USERNAME}
     secret-key: ${VSPH_S3_PASSWORD}
-    region: eu-central-1
-    path-style-access-enabled: true
 
 springdoc:
   api-docs:

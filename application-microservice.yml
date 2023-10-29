@@ -3,3 +3,5 @@ visphere:
     life:
       activate-account-hours: 48
       change-password-minutes: 10
+  s3:
+    cdn-base-url: http://localhost:${VSPH_DEV_S3_PORT:8111}

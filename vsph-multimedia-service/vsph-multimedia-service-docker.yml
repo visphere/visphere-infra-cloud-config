@@ -4,3 +4,4 @@ visphere:
     access-key: ${V_S3_USERNAME}
     secret-key: ${V_S3_PASSWORD}
     region: eu-central-1
+    path-style-access-enabled: true

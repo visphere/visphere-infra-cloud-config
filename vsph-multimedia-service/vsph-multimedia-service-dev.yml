@@ -9,6 +9,7 @@ visphere:
     access-key: ${VSPH_S3_USERNAME}
     secret-key: ${VSPH_S3_PASSWORD}
     region: eu-central-1
+    path-style-access-enabled: true
 
 springdoc:
   api-docs:

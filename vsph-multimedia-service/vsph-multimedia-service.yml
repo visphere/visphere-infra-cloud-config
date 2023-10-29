@@ -18,3 +18,14 @@ visphere:
   s3:
     region: eu-central-1
     path-style-access-enabled: true
+  generator:
+    image:
+      default-color: '#489d81'
+      colors:
+        - '#1b55c5'
+        - '#46a1bc'
+        - '#489d81'
+        - '#f29d41'
+        - '#cd4425'
+        - '#4f47a4'
+        - '#1b2b4b'

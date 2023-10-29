@@ -1,0 +1,5 @@
+visphere:
+  ota:
+    life:
+      activate-account-hours: 48
+      change-password-minutes: 10

@@ -25,3 +25,4 @@ visphere:
       email-change-password: local-email-change-password
       email-new-account: local-email-new-account
       generate-default-user-profile: local-generate-default-user-profile
+      profile-image-details: local-profile-image-details

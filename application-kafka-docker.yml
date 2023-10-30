@@ -29,3 +29,4 @@ visphere:
       email-change-password: docker-email-change-password
       email-new-account: docker-email-new-account
       generate-default-user-profile: docker-generate-default-user-profile
+      profile-image-details: docker-profile-image-details

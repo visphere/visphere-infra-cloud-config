@@ -4,11 +4,13 @@ spring:
   profiles:
     group:
       dev:
+        - 'microservice'
         - 'microservice-dev'
         - 'eureka-config'
         - 'kafka'
         - 'kafka-dev'
       docker:
+        - 'microservice'
         - 'microservice-docker'
         - 'eureka-config'
         - 'kafka'

@@ -4,6 +4,7 @@ spring:
   profiles:
     group:
       dev:
+        - 'microservice'
         - 'microservice-dev'
         - 'postgresql-db'
         - 'postgresql-db-dev'
@@ -11,6 +12,7 @@ spring:
         - 'kafka-dev'
         - 'eureka-config'
       docker:
+        - 'microservice'
         - 'microservice-docker'
         - 'postgresql-db'
         - 'postgresql-db-docker'

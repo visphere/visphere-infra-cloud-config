@@ -13,7 +13,3 @@ visphere:
     secret-key: ${VSPH_JWT_SECRET_KEY}
     issuer: ${VSPH_JWT_ISSUER}
     audience: ${VSPH_JWT_AUDIENCE}
-    access:
-      life-minutes: 20
-    refresh:
-      life-hours: 48

@@ -1,4 +1,9 @@
 visphere:
+  jwt:
+    access:
+      life-minutes: 5
+    refresh:
+      life-days: 30
   ota:
     life:
       activate-account-hours: 48

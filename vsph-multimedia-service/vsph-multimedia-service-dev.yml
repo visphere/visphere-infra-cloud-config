@@ -1,3 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:${VSPH_DEV_POSTGRESQL_PORT:7500}/vsph_multimedia
+
 visphere:
   openapi:
     service:

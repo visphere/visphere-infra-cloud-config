@@ -19,6 +19,10 @@ spring:
         - 'kafka'
         - 'kafka-docker'
         - 'eureka-config'
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 30MB
 
 visphere:
   s3:

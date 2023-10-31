@@ -39,3 +39,6 @@ visphere:
       font-path: font/figtree-medium.ttf
       font-size: 100
       size: 250
+  kafka:
+    reply-topic:
+      user-details: user-details

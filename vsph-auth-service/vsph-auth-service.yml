@@ -23,6 +23,5 @@ spring:
 visphere:
   kafka:
     reply-topic:
-      account-details: account-details
       email-change-password: email-change-password
       profile-image-details: profile-image-details

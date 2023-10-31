@@ -23,5 +23,5 @@ spring:
 visphere:
   kafka:
     reply-topic:
-      email-change-password: email-change-password
+      generate-default-user-profile: generate-default-user-profile
       profile-image-details: profile-image-details

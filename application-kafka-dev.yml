@@ -22,7 +22,8 @@ visphere:
       activate-user: local-activate-user
       check-user: local-check-user
       email-activate-account: local-email-activate-account
-      email-change-password: local-email-change-password
       email-new-account: local-email-new-account
+      email-change-password: local-email-change-password
+      email-password-changed: local-email-password-changed
       generate-default-user-profile: local-generate-default-user-profile
       profile-image-details: local-profile-image-details

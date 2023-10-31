@@ -26,7 +26,9 @@ visphere:
       activate-user: docker-activate-user
       check-user: docker-check-user
       email-activate-account: docker-email-activate-account
+      email-new-account: docker-email-new-account
       email-change-password: docker-email-change-password
+      email-password-changed: docker-email-password-changed
       email-new-account: docker-email-new-account
       generate-default-user-profile: docker-generate-default-user-profile
       profile-image-details: docker-profile-image-details

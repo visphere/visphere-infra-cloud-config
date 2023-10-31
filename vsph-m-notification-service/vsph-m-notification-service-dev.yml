@@ -14,6 +14,6 @@ visphere:
 
 springdoc:
   api-docs:
-    path: /vsph-notification-service/v3/api-docs
+    path: /vsph-m-notification-service/v3/api-docs
   swagger-ui:
-    path: /vsph-notification-service/swagger-ui.html
+    path: /vsph-m-notification-service/swagger-ui.html

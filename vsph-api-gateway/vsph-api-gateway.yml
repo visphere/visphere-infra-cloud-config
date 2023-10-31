@@ -14,21 +14,25 @@ spring:
           enabled: true
       routes:
         - id: auth
-          uri: lb://vsph-auth-service
+          uri: lb://vsph-m-auth-service
           predicates:
             - Path=/api/v1/auth/**
         - id: misc
-          uri: lb://vsph-misc-service
+          uri: lb://vsph-m-misc-service
           predicates:
             - Path=/api/v1/misc/**
         - id: multimedia
-          uri: lb://vsph-multimedia-service
+          uri: lb://vsph-m-multimedia-service
           predicates:
             - Path=/api/v1/multimedia/**
         - id: notification
-          uri: lb://vsph-notification-service
+          uri: lb://vsph-m-notification-service
           predicates:
             - Path=/api/v1/notification/**
+        - id: sphere
+          uri: lb://vsph-m-sphere-service
+          predicates:
+            - Path=/api/v1/sphere/**
 
 visphere:
   i18n:

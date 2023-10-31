@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: vsph-m-auth-service
+  profiles:
+    group:
+      dev:
+        - 'microservice'
+        - 'microservice-dev'
+        - 'postgresql-db'
+        - 'postgresql-db-dev'
+        - 'kafka'
+        - 'kafka-dev'
+        - 'eureka-config'
+      docker:
+        - 'microservice'
+        - 'microservice-docker'
+        - 'postgresql-db'
+        - 'postgresql-db-docker'
+        - 'kafka'
+        - 'kafka-docker'
+        - 'eureka-config'
+
+visphere:
+  kafka:
+    reply-topic:
+      generate-default-user-profile: generate-default-user-profile
+      profile-image-details: profile-image-details

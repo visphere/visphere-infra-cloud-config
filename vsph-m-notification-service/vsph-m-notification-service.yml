@@ -1,6 +1,6 @@
 spring:
   application:
-    name: vsph-notification-service
+    name: vsph-m-notification-service
   profiles:
     group:
       dev:

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: vsph-multimedia-service
+    name: vsph-m-multimedia-service
   profiles:
     group:
       dev:

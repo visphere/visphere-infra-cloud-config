@@ -1,6 +1,6 @@
 spring:
   application:
-    name: vsph-misc-service
+    name: vsph-m-misc-service
   profiles:
     group:
       dev:

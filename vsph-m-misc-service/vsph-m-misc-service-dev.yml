@@ -7,6 +7,6 @@ visphere:
 
 springdoc:
   api-docs:
-    path: /vsph-misc-service/v3/api-docs
+    path: /vsph-m-misc-service/v3/api-docs
   swagger-ui:
-    path: /vsph-misc-service/swagger-ui.html
+    path: /vsph-m-misc-service/swagger-ui.html

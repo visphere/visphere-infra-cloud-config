@@ -12,18 +12,21 @@ springdoc:
     path: /swagger-ui.html
     config-url: /v3/api-docs/swagger-config
     urls:
-      - url: /vsph-auth-service/v3/api-docs
+      - url: /vsph-m-auth-service/v3/api-docs
         name: Auth Service
         primaryName: Auth Service
-      - url: /vsph-misc-service/v3/api-docs
+      - url: /vsph-m-misc-service/v3/api-docs
         name: Misc Service
         primaryName: Misc Service
-      - url: /vsph-multimedia-service/v3/api-docs
+      - url: /vsph-m-multimedia-service/v3/api-docs
         name: Multimedia Service
         primaryName: Multimedia Service
-      - url: /vsph-notification-service/v3/api-docs
+      - url: /vsph-m-notification-service/v3/api-docs
         name: Notification Service
         primaryName: Notification Service
+      - url: /vsph-m-sphere-service/v3/api-docs
+        name: Sphere Service
+        primaryName: Sphere Service
 
 visphere:
   cors:

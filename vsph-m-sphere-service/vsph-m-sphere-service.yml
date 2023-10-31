@@ -1,6 +1,6 @@
 spring:
   application:
-    name: vsph-auth-service
+    name: vsph-m-sphere-service
   profiles:
     group:
       dev:
@@ -19,9 +19,3 @@ spring:
         - 'kafka'
         - 'kafka-docker'
         - 'eureka-config'
-
-visphere:
-  kafka:
-    reply-topic:
-      generate-default-user-profile: generate-default-user-profile
-      profile-image-details: profile-image-details

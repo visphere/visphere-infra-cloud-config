@@ -11,6 +11,6 @@ visphere:
 
 springdoc:
   api-docs:
-    path: /vsph-auth-service/v3/api-docs
+    path: /vsph-m-auth-service/v3/api-docs
   swagger-ui:
-    path: /vsph-auth-service/swagger-ui.html
+    path: /vsph-m-auth-service/swagger-ui.html

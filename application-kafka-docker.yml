@@ -21,9 +21,6 @@ visphere:
     group-id: ${spring.kafka.consumer.group-id}
     topic:
       jwt-is-on-blacklist: docker-jwt-is-on-blacklist
-      account-details: docker-account-details
-      create-user: docker-create-user
-      activate-user: docker-activate-user
       check-user: docker-check-user
       email-activate-account: docker-email-activate-account
       email-new-account: docker-email-new-account

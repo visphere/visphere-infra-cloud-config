@@ -17,9 +17,6 @@ visphere:
     group-id: ${spring.kafka.consumer.group-id}
     topic:
       jwt-is-on-blacklist: local-jwt-is-on-blacklist
-      account-details: local-account-details
-      create-user: local-create-user
-      activate-user: local-activate-user
       check-user: local-check-user
       email-activate-account: local-email-activate-account
       email-new-account: local-email-new-account

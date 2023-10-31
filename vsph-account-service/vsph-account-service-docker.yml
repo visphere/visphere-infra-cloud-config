@@ -1,3 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://vsph-postgresql-db:5432/vsph_account

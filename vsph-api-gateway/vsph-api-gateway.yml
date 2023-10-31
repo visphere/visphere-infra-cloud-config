@@ -13,10 +13,6 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: account
-          uri: lb://vsph-account-service
-          predicates:
-            - Path=/api/v1/account/**
         - id: auth
           uri: lb://vsph-auth-service
           predicates:

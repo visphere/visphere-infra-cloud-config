@@ -40,7 +40,7 @@ visphere:
         - '#4f47a4'
         - '#1b2b4b'
       font-name: FigTree
-      font-path: font/figtree-medium.ttf
+      font-path: font/figtree-semibold.ttf
       font-size: 100
       size: 250
       max-size-mb: 3

@@ -29,4 +29,5 @@ visphere:
       email-password-changed: docker-email-password-changed
       email-new-account: docker-email-new-account
       generate-default-user-profile: docker-generate-default-user-profile
+      generate-default-guild-profile: docker-generate-default-guild-profile
       profile-image-details: docker-profile-image-details

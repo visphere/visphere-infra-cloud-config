@@ -19,3 +19,8 @@ spring:
         - 'kafka'
         - 'kafka-docker'
         - 'eureka-config'
+
+visphere:
+  kafka:
+    reply-topic:
+      generate-default-guild-profile: generate-default-guild-profile

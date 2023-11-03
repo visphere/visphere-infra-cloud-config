@@ -25,4 +25,5 @@ visphere:
       email-password-changed: local-email-password-changed
       generate-default-user-profile: local-generate-default-user-profile
       generate-default-guild-profile: local-generate-default-guild-profile
+      update-default-guild-profile: local-update-default-guild-profile
       profile-image-details: local-profile-image-details

@@ -1,3 +1,7 @@
 spring:
   datasource:
     url: jdbc:postgresql://vsph-postgresql-db:5432/vsph_sphere
+
+visphere:
+  guild-link:
+    url-prefix: http://localhost:${VSPH_DOCKER_CLIENT_PORT}

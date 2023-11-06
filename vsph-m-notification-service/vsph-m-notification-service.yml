@@ -42,6 +42,11 @@ visphere:
     extension: .hbs
     font-name: Figtree
     font-resource-path: https://fonts.googleapis.com/css2?family=Figtree
+    mobile:
+      app-gallery-link: https://appgallery.huawei.com
+      apple-store-link: https://www.apple.com/app-store
+      google-play-link: https://play.google.com/store
+
   mail:
     app-name: Visphere
     reply-to: info@visphere.pl

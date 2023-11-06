@@ -37,8 +37,8 @@ spring:
 
 visphere:
   hbs:
-    templates-path: classpath:email/templates
-    layouts-path: classpath:email/layouts
+    templates-path: classpath:mail/templates
+    layouts-path: classpath:mail/layouts
     extension: .hbs
     font-name: Figtree
     font-resource-path: https://fonts.googleapis.com/css2?family=Figtree

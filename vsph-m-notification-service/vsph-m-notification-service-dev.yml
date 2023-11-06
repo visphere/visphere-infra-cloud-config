@@ -11,6 +11,11 @@ visphere:
       title: Notification service
       version: 1.0.0
       url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
+  mjml:
+    api:
+      host: http://localhost:${VSPH_DEV_MAIL_PARSER_API_PORT}
+      header-key-signature: ${ENV_MAIL_PARSER_API_HEADER:x-vsph-mail-parser-key}
+      api-key: ${ENV_MAIL_PARSER_API_KEY}
 
 springdoc:
   api-docs:

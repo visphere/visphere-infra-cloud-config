@@ -34,3 +34,11 @@ spring:
           auth: false
           starttls:
             enable: false
+
+visphere:
+  hbs:
+    templates-path: classpath:email/templates
+    layouts-path: classpath:email/layouts
+    extension: .hbs
+    font-name: Figtree
+    font-resource-path: https://fonts.googleapis.com/css2?family=Figtree

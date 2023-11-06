@@ -16,3 +16,4 @@ visphere:
     client-url: ${VSPH_CLIENT_URL}
     infra-gateway-url: ${VSPH_API_GATEWAY_URL}
     s3-static-url: ${VSPH_STATIC_S3_URL}
+    s3-url: ${VSPH_S3_URL}

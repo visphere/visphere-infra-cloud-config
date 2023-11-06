@@ -6,9 +6,12 @@ spring:
     host: vsph-mailhog
 
 visphere:
+  hbs:
+    landing-url: ${VSPH_LANDING_URL}
+    client-url: ${VSPH_CLIENT_URL}
   mjml:
     api:
-      host: http://localhost:${VSPH_MAIL_PARSER_API_PORT}
+      host: ${VSPH_MAIL_PARSER_API_URL}
       header-key-signature: ${V_MAIL_PARSER_API_HEADER:x-vsph-mail-parser-key}
       api-key: ${V_MAIL_PARSER_API_KEY}
   mail:

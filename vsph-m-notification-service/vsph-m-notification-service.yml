@@ -46,7 +46,6 @@ visphere:
       app-gallery-link: https://appgallery.huawei.com
       app-store-link: https://www.apple.com/app-store
       google-play-link: https://play.google.com/store
-
   mail:
     app-name: Visphere
     reply-to: info@visphere.pl

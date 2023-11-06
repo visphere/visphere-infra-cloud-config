@@ -16,11 +16,11 @@ visphere:
       host: http://localhost:${VSPH_DEV_MAIL_PARSER_API_PORT}
       header-key-signature: ${ENV_MAIL_PARSER_API_HEADER:x-vsph-mail-parser-key}
       api-key: ${ENV_MAIL_PARSER_API_KEY}
+  mail:
+    send-from: DEVELOP-NOREPLY@visphere.pl
 
 springdoc:
   api-docs:
     path: /vsph-m-notification-service/v3/api-docs
   swagger-ui:
     path: /vsph-m-notification-service/swagger-ui.html
-  mail:
-    send-from: DEVELOP-NOREPLY@visphere.pl

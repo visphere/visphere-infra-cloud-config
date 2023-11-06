@@ -11,3 +11,5 @@ visphere:
       host: http://localhost:${VSPH_MAIL_PARSER_API_PORT}
       header-key-signature: ${V_MAIL_PARSER_API_HEADER:x-vsph-mail-parser-key}
       api-key: ${V_MAIL_PARSER_API_KEY}
+  mail:
+    send-from: noreply@visphere.pl

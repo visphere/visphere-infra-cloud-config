@@ -42,3 +42,6 @@ visphere:
     extension: .hbs
     font-name: Figtree
     font-resource-path: https://fonts.googleapis.com/css2?family=Figtree
+  mail:
+    app-name: Visphere
+    reply-to: info@visphere.pl

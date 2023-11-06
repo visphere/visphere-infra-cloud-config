@@ -22,3 +22,5 @@ springdoc:
     path: /vsph-m-notification-service/v3/api-docs
   swagger-ui:
     path: /vsph-m-notification-service/swagger-ui.html
+  mail:
+    send-from: DEVELOP-NOREPLY@visphere.pl

@@ -11,3 +11,8 @@ visphere:
     secret-key: ${V_JWT_SECRET_KEY}
     issuer: ${V_JWT_ISSUER}
     audience: ${V_JWT_AUDIENCE}
+  external-service:
+    landing-url: ${VSPH_LANDING_URL}
+    client-url: ${VSPH_CLIENT_URL}
+    infra-gateway-url: ${VSPH_API_GATEWAY_URL}
+    s3-static-url: ${VSPH_STATIC_S3_URL}

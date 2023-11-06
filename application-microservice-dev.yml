@@ -13,3 +13,8 @@ visphere:
     secret-key: ${VSPH_JWT_SECRET_KEY}
     issuer: ${VSPH_JWT_ISSUER}
     audience: ${VSPH_JWT_AUDIENCE}
+  external-service:
+    landing-url: http://localhost:${VSPH_DEV_LANDING_PORT}
+    client-url: http://localhost:${VSPH_DEV_CLIENT_PORT}
+    infra-gateway-url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}
+    s3-static-url: http://localhost:${VSPH_STATIC_S3_API_PORT}

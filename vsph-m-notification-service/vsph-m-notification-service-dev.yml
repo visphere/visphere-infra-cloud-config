@@ -11,10 +11,6 @@ visphere:
       title: Notification service
       version: 1.0.0
       url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
-  hbs:
-    landing-url: http://localhost:${VSPH_DEV_LANDING_PORT}
-    client-url: http://localhost:${VSPH_DEV_CLIENT_PORT}
-    infra-gateway-url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}
   mjml:
     api:
       host: http://localhost:${VSPH_DEV_MAIL_PARSER_API_PORT}

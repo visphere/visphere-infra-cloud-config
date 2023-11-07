@@ -25,9 +25,6 @@ spring:
       max-request-size: 100MB
 
 visphere:
-  s3:
-    region: eu-central-1
-    path-style-access-enabled: true
   generator:
     image:
       default-color: '#489d81'

@@ -19,3 +19,7 @@ visphere:
     infra-gateway-url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}
     s3-static-url: http://localhost:${VSPH_STATIC_S3_API_PORT}
     s3-url: http://localhost:${VSPH_DEV_S3_API_PORT}
+  s3:
+    url: http://localhost:${VSPH_DEV_S3_API_PORT}
+    access-key: ${VSPH_S3_USERNAME}
+    secret-key: ${VSPH_S3_PASSWORD}

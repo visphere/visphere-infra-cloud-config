@@ -1,9 +1,3 @@
 spring:
   datasource:
     url: jdbc:postgresql://vsph-postgresql-db:5432/vsph_multimedia
-
-visphere:
-  s3:
-    url: http://vsph-s3:9000
-    access-key: ${V_S3_USERNAME}
-    secret-key: ${V_S3_PASSWORD}

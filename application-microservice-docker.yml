@@ -17,3 +17,7 @@ visphere:
     infra-gateway-url: ${VSPH_API_GATEWAY_URL}
     s3-static-url: ${VSPH_STATIC_S3_URL}
     s3-url: ${VSPH_S3_URL}
+  s3:
+    url: http://vsph-s3:9000
+    access-key: ${V_S3_USERNAME}
+    secret-key: ${V_S3_PASSWORD}

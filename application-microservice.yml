@@ -12,4 +12,4 @@ visphere:
     region: eu-central-1
     path-style-access-enabled: true
   cdn:
-    base-url: http://localhost:${VSPH_DEV_S3_PORT:8111}
+    base-url: http://localhost:${VSPH_DEV_S3_API_PORT:8110}

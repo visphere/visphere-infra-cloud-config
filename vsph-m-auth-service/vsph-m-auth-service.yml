@@ -25,3 +25,6 @@ visphere:
     reply-topic:
       generate-default-user-profile: generate-default-user-profile
       profile-image-details: profile-image-details
+  mfa:
+    label: Visphere
+    issuer: app@visphere.pl

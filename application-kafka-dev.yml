@@ -23,6 +23,7 @@ visphere:
       email-new-account: local-email-new-account
       email-change-password: local-email-change-password
       email-password-changed: local-email-password-changed
+      email-mfa-code: local-email-mfa-code
       generate-default-user-profile: local-generate-default-user-profile
       generate-default-guild-profile: local-generate-default-guild-profile
       update-default-guild-profile: local-update-default-guild-profile

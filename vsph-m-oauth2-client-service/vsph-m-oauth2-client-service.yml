@@ -27,7 +27,7 @@ spring:
             client-secret: ${V_OAUTH2_FACEBOOK_CLIENT_SECRET}
         provider:
           facebook:
-            user-info-uri: https://graph.facebook.com/me?fields=id,first_name,last_name,verified,email,picture.width(250).height(250)
+            user-info-uri: https://graph.facebook.com/me?fields=id,first_name,last_name,is_verified,email,picture.width(250).height(250)
 
 visphere:
   oauth2:

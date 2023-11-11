@@ -4,9 +4,9 @@ spring:
       client:
         registration:
           google:
-            redirectUri: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}/oauth2/callback
+            redirect-uri: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}/oauth2/callback
           facebook:
-            redirectUri: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}/oauth2/callback
+            redirect-uri: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}/oauth2/callback
 
 visphere:
   openapi:

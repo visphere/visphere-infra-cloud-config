@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            redirect-uri: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}/oauth2/callback
+          facebook:
+            redirect-uri: http://localhost:${VSPH_DEV_API_GATEWAY_PORT}/oauth2/callback
+
+visphere:
+  openapi:
+    service:
+      title: OAuth2 Client service
+      version: 1.0.0
+      url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}

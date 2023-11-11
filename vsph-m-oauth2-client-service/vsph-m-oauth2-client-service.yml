@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: vsph-m-oauth2-client-service
+  profiles:
+    group:
+      dev:
+        - 'microservice'
+        - 'microservice-dev'
+        - 'kafka'
+        - 'kafka-dev'
+        - 'eureka-config'
+      docker:
+        - 'microservice'
+        - 'microservice-docker'
+        - 'kafka'
+        - 'kafka-docker'
+        - 'eureka-config'
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${V_OAUTH2_GOOGLE_CLIENT_ID}
+            client-secret: ${V_OAUTH2_GOOGLE_CLIENT_SECRET}
+          facebook:
+            client-id: ${V_OAUTH2_FACEBOOK_CLIENT_ID}
+            client-secret: ${V_OAUTH2_FACEBOOK_CLIENT_SECRET}
+
+visphere:
+  oauth2:
+    suppliers:
+      - google
+      - facebook
+    expiration-minutes: 3
+    spring-security-redirect-uri: /oauth2/callback

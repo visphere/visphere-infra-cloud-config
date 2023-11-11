@@ -29,6 +29,10 @@ spring:
           uri: lb://vsph-m-notification-service
           predicates:
             - Path=/api/v1/notification/**
+        - id: oauth2
+          uri: lb://vsph-m-oauth2-client-service
+          predicates:
+            - Path=/api/v1/oauth2/**, /oauth2/**
         - id: sphere
           uri: lb://vsph-m-sphere-service
           predicates:

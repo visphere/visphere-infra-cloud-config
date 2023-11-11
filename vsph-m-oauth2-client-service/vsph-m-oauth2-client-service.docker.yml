@@ -4,6 +4,6 @@ spring:
       client:
         registration:
           google:
-            redirect-uri: ${VSPH_API_GATEWAY_URL}/oauth2/callback
+            redirectUri: ${VSPH_API_GATEWAY_URL}/oauth2/callback
           facebook:
-            redirect-uri: ${VSPH_API_GATEWAY_URL}/oauth2/callback
+            redirectUri: ${VSPH_API_GATEWAY_URL}/oauth2/callback

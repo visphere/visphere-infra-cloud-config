@@ -43,3 +43,4 @@ visphere:
   kafka:
     reply-topic:
       persist-new-user: persist-new-user
+      update-user: update-user

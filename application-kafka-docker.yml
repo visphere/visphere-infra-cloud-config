@@ -24,6 +24,7 @@ visphere:
       check-user: docker-check-user
       user-details: docker-user-details
       persist-new-user: docker-persist-new-user
+      update-user: docker-update-user
       email-activate-account: docker-email-activate-account
       email-new-account: docker-email-new-account
       email-change-password: docker-email-change-password

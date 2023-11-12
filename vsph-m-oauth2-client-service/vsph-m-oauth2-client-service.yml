@@ -40,3 +40,6 @@ visphere:
       - facebook
     expiration-minutes: 3
     spring-security-redirect-uri: /oauth2/callback
+  kafka:
+    reply-topic:
+      persist-new-user: persist-new-user

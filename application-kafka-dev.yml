@@ -19,6 +19,7 @@ visphere:
       jwt-is-on-blacklist: local-jwt-is-on-blacklist
       check-user: local-check-user
       user-details: local-user-details
+      persist-new-user: local-persist-new-user
       email-activate-account: local-email-activate-account
       email-new-account: local-email-new-account
       email-change-password: local-email-change-password

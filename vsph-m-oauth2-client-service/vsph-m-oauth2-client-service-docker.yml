@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://vsph-postgresql-db:5432/vsph_oauth2
+    url: jdbc:postgresql://vsph-postgresql-db:5432/vsph_oauth2_client
   security:
     oauth2:
       client:

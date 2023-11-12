@@ -18,4 +18,5 @@ visphere:
       url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
   oauth2:
     authorized-client-redirect-uris:
-      - http://localhost:${VSPH_DEV_CLIENT_PORT}
+      - http://localhost:${VSPH_DEV_CLIENT_PORT}/auth/login
+      - http://localhost:${VSPH_DEV_CLIENT_PORT}/auth/fill-data

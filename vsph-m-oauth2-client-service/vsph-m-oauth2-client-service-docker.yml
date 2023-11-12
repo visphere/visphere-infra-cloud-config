@@ -9,3 +9,8 @@ spring:
             redirectUri: ${VSPH_API_GATEWAY_URL}/oauth2/callback
           facebook:
             redirectUri: ${VSPH_API_GATEWAY_URL}/oauth2/callback
+
+visphere:
+  oauth2:
+    authorized-client-redirect-uris:
+      - ${VSPH_CLIENT_URL}

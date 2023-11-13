@@ -25,6 +25,7 @@ visphere:
     reply-topic:
       generate-default-user-profile: generate-default-user-profile
       profile-image-details: profile-image-details
+      get-oauth2-details: get-oauth2-details
   mfa:
     label: Visphere
     issuer: app@visphere.pl

@@ -23,6 +23,7 @@ visphere:
       get-oauth2-user-details: local-get-oauth2-user-details
       update-oauth2-user-details: local-update-oauth2-user-details
       login-oauth2-user: local-login-oauth2-user
+      get-oauth2-details: local-get-oauth2-details
       email-activate-account: local-email-activate-account
       email-new-account: local-email-new-account
       email-change-password: local-email-change-password

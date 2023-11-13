@@ -27,6 +27,7 @@ visphere:
       get-oauth2-user-details: docker-get-oauth2-user-details
       update-oauth2-user-details: docker-update-oauth2-user-details
       login-oauth2-user: docker-login-oauth2-user
+      get-oauth2-details: docker-get-oauth2-details
       email-activate-account: docker-email-activate-account
       email-new-account: docker-email-new-account
       email-change-password: docker-email-change-password

@@ -42,6 +42,7 @@ visphere:
     spring-security-redirect-uri: /oauth2/callback
   kafka:
     reply-topic:
+      user-details: user-details
       persist-new-user: persist-new-user
       get-oauth2-user-details: get-oauth2-user-details
       update-oauth2-user-details: update-oauth2-user-details

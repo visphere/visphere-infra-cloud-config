@@ -44,3 +44,4 @@ visphere:
     reply-topic:
       persist-new-user: persist-new-user
       update-user: update-user
+      user-details: user-details

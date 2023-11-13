@@ -46,3 +46,4 @@ visphere:
       persist-new-user: persist-new-user
       get-oauth2-user-details: get-oauth2-user-details
       update-oauth2-user-details: update-oauth2-user-details
+      login-oauth2-user: login-oauth2-user

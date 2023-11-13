@@ -20,7 +20,8 @@ visphere:
       check-user: local-check-user
       user-details: local-user-details
       persist-new-user: local-persist-new-user
-      update-user: local-update-user
+      get-oauth2-user-details: local-get-oauth2-user-details
+      update-oauth2-user-details: local-update-oauth2-user-details
       email-activate-account: local-email-activate-account
       email-new-account: local-email-new-account
       email-change-password: local-email-change-password

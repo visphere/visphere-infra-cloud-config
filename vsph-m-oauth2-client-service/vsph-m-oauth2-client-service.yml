@@ -43,5 +43,5 @@ visphere:
   kafka:
     reply-topic:
       persist-new-user: persist-new-user
-      update-user: update-user
-      user-details: user-details
+      get-oauth2-user-details: get-oauth2-user-details
+      update-oauth2-user-details: update-oauth2-user-details

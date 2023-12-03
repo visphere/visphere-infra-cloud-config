@@ -33,6 +33,10 @@ spring:
           uri: lb://vsph-m-oauth2-client-service
           predicates:
             - Path=/api/v1/oauth2/**, /oauth2/**
+        - id: settings
+          uri: lb://vsph-m-settings-service
+          predicates:
+            - Path=/api/v1/settings/**
         - id: sphere
           uri: lb://vsph-m-sphere-service
           predicates:

@@ -27,6 +27,9 @@ springdoc:
       - url: /vsph-m-oauth2-client-service/v3/api-docs
         name: OAuth2 Client Service
         primaryName: OAuth2 Client Service
+      - url: /vsph-m-settings-service/v3/api-docs
+        name: Settings Service
+        primaryName: Settings Service
       - url: /vsph-m-sphere-service/v3/api-docs
         name: Sphere Service
         primaryName: Sphere Service

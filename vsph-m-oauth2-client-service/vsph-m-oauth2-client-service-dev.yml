@@ -20,3 +20,9 @@ visphere:
     authorized-client-redirect-uris:
       - http://localhost:${VSPH_DEV_CLIENT_PORT}/auth/login
       - http://localhost:${VSPH_DEV_CLIENT_PORT}/auth/fill-data
+
+springdoc:
+  api-docs:
+    path: /vsph-m-oauth2-client-service/v3/api-docs
+  swagger-ui:
+    path: /vsph-m-oauth2-client-service/swagger-ui.html

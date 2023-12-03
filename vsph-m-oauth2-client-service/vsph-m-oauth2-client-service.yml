@@ -47,3 +47,5 @@ visphere:
       get-oauth2-user-details: get-oauth2-user-details
       update-oauth2-user-details: update-oauth2-user-details
       login-oauth2-user: login-oauth2-user
+      get-user-persisted-related-settings: get-user-persisted-related-settings
+      instantiate-user-related-settings: instantiate-user-related-settings

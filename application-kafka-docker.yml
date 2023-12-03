@@ -38,3 +38,5 @@ visphere:
       generate-default-guild-profile: docker-generate-default-guild-profile
       update-default-guild-profile: docker-update-default-guild-profile
       profile-image-details: docker-profile-image-details
+      get-user-persisted-related-settings: docker-get-user-persisted-related-settings
+      instantiate-user-related-settings: docker-instantiate-user-related-settings

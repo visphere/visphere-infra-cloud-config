@@ -33,3 +33,5 @@ visphere:
       generate-default-guild-profile: local-generate-default-guild-profile
       update-default-guild-profile: local-update-default-guild-profile
       profile-image-details: local-profile-image-details
+      get-user-persisted-related-settings: local-get-user-persisted-related-settings
+      instantiate-user-related-settings: local-instantiate-user-related-settings

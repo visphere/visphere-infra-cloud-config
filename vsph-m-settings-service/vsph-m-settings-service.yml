@@ -19,7 +19,3 @@ spring:
         - 'kafka'
         - 'kafka-docker'
         - 'eureka-config'
-
-visphere:
-  kafka:
-    reply-topic:

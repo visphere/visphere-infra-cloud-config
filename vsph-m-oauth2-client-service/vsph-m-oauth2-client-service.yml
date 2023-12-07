@@ -49,3 +49,5 @@ visphere:
       login-oauth2-user: login-oauth2-user
       get-user-persisted-related-settings: get-user-persisted-related-settings
       instantiate-user-related-settings: instantiate-user-related-settings
+      generate-default-user-profile: generate-default-user-profile
+      profile-image-details: profile-image-details

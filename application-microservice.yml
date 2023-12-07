@@ -9,6 +9,7 @@ visphere:
       activate-account-hours: 48
       change-password-minutes: 10
       mfa-email-minutes: 5
+      change-email-minutes: 10
   s3:    
     region: eu-central-1
     path-style-access-enabled: true

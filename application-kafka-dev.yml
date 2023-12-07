@@ -29,6 +29,11 @@ visphere:
       email-change-password: local-email-change-password
       email-password-changed: local-email-password-changed
       email-mfa-code: local-email-mfa-code
+      email-req-change-email: local-email-req-change-email
+      email-req-change-second-email: local-email-req-change-second-email
+      email-changed-email: local-email-changed-email
+      email-changed-second-email: local-email-changed-second-email
+      email-removed-second-email: local-email-removed-second-email
       generate-default-user-profile: local-generate-default-user-profile
       generate-default-guild-profile: local-generate-default-guild-profile
       update-default-guild-profile: local-update-default-guild-profile

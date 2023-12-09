@@ -41,6 +41,7 @@ visphere:
       font-size: 110
       size: 250
       max-size-mb: 3
+      locker-alpha-blend-path: gfx/locker-alpha-blend.png
   kafka:
     reply-topic:
       user-details: user-details

@@ -35,6 +35,8 @@ visphere:
       email-changed-email: local-email-changed-email
       email-changed-second-email: local-email-changed-second-email
       email-removed-second-email: local-email-removed-second-email
+      email-disabled-account: local-email-disabled-account
+      email-deleted-account: local-email-deleted-account
       generate-default-user-profile: local-generate-default-user-profile
       generate-default-guild-profile: local-generate-default-guild-profile
       update-default-guild-profile: local-update-default-guild-profile

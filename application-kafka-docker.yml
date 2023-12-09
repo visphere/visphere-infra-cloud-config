@@ -35,6 +35,7 @@ visphere:
       email-new-account: docker-email-new-account
       email-mfa-code: docker-email-mfa-code
       email-updated-mfa-state: docker-email-updated-mfa-state
+      email-reset-mfa-state: docker-email-reset-mfa-state
       email-req-change-email: docker-email-req-change-email
       email-req-change-second-email: docker-email-req-change-second-email
       email-changed-email: docker-email-changed-email

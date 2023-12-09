@@ -30,6 +30,7 @@ visphere:
       email-password-changed: local-email-password-changed
       email-mfa-code: local-email-mfa-code
       email-updated-mfa-state: local-email-updated-mfa-state
+      email-reset-mfa-state: local-email-reset-mfa-state
       email-req-change-email: local-email-req-change-email
       email-req-change-second-email: local-email-req-change-second-email
       email-changed-email: local-email-changed-email

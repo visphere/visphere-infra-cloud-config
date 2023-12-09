@@ -43,6 +43,8 @@ visphere:
       email-disabled-account: docker-email-disabled-account
       email-deleted-account: docker-email-deleted-account
       generate-default-user-profile: docker-generate-default-user-profile
+      replace-profile-image-with-locked: docker-replace-profile-image-with-locked
+      replace-locked-with-profile-image: docker-replace-locked-with-profile-image
       generate-default-guild-profile: docker-generate-default-guild-profile
       update-default-guild-profile: docker-update-default-guild-profile
       profile-image-details: docker-profile-image-details

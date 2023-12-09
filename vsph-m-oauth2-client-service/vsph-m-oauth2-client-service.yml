@@ -50,4 +50,5 @@ visphere:
       get-user-persisted-related-settings: get-user-persisted-related-settings
       instantiate-user-related-settings: instantiate-user-related-settings
       generate-default-user-profile: generate-default-user-profile
+      replace-locked-with-profile-image: replace-locked-with-profile-image
       profile-image-details: profile-image-details

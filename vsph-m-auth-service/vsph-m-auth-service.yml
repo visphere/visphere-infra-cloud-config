@@ -28,6 +28,8 @@ visphere:
       get-oauth2-details: get-oauth2-details
       get-user-persisted-related-settings: get-user-persisted-related-settings
       instantiate-user-related-settings: instantiate-user-related-settings
+      replace-profile-image-with-locked: replace-profile-image-with-locked
+      replace-locked-with-profile-image: replace-locked-with-profile-image
   mfa:
     label: Visphere
     issuer: app@visphere.pl

@@ -38,7 +38,7 @@ visphere:
         - '#1b2b4b'
       font-name: FigTree
       font-path: font/figtree-semibold.ttf
-      font-size: 120
+      font-size: 110
       size: 250
       max-size-mb: 3
   kafka:

@@ -41,6 +41,7 @@ visphere:
       email-changed-email: docker-email-changed-email
       email-changed-second-email: docker-email-changed-second-email
       email-removed-second-email: docker-email-removed-second-email
+      email-enabled-account: docker-email-enabled-account
       email-disabled-account: docker-email-disabled-account
       email-deleted-account: docker-email-deleted-account
       generate-default-user-profile: docker-generate-default-user-profile

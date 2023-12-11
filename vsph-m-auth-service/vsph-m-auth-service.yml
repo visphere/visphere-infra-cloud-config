@@ -30,6 +30,7 @@ visphere:
       instantiate-user-related-settings: instantiate-user-related-settings
       replace-profile-image-with-locked: replace-profile-image-with-locked
       replace-locked-with-profile-image: replace-locked-with-profile-image
+      persist-notif-user-settings: persist-notif-user-settings
   mfa:
     label: Visphere
     issuer: app@visphere.pl

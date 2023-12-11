@@ -47,3 +47,4 @@ visphere:
       profile-image-details: local-profile-image-details
       get-user-persisted-related-settings: local-get-user-persisted-related-settings
       instantiate-user-related-settings: local-instantiate-user-related-settings
+      persist-notif-user-settings: local-persist-notif-user-settings

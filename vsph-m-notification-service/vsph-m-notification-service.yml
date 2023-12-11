@@ -55,3 +55,7 @@ visphere:
   mail:
     app-name: Visphere
     reply-to: info@visphere.pl
+  kafka:
+    reply-topic:
+      get-oauth2-details: get-oauth2-details
+      profile-image-details: profile-image-details

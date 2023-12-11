@@ -28,6 +28,8 @@ visphere:
   generator:
     image:
       default-color: '#489d81'
+      default-font-light: '#ffffff'
+      default-font-dark: '#070707'
       colors:
         - '#1b55c5'
         - '#46a1bc'

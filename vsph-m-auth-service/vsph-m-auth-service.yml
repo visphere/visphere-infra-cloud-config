@@ -24,6 +24,7 @@ visphere:
   kafka:
     reply-topic:
       generate-default-user-profile: generate-default-user-profile
+      update-default-user-profile: update-default-user-profile
       profile-image-details: profile-image-details
       get-oauth2-details: get-oauth2-details
       get-user-persisted-related-settings: get-user-persisted-related-settings

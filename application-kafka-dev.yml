@@ -40,6 +40,7 @@ visphere:
       email-disabled-account: local-email-disabled-account
       email-deleted-account: local-email-deleted-account
       generate-default-user-profile: local-generate-default-user-profile
+      update-default-user-profile: local-update-default-user-profile
       replace-profile-image-with-locked: local-replace-profile-image-with-locked
       replace-locked-with-profile-image: local-replace-locked-with-profile-image
       generate-default-guild-profile: local-generate-default-guild-profile

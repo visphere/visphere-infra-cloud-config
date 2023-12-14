@@ -25,3 +25,4 @@ visphere:
     reply-topic:
       generate-default-guild-profile: generate-default-guild-profile
       update-default-guild-profile: update-default-guild-profile
+      get-guild-images-by-guild-ids: get-guild-images-by-guild-ids

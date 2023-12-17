@@ -51,3 +51,4 @@ visphere:
       persist-notif-user-settings: local-persist-notif-user-settings
       get-guild-images-by-guild-ids: local-get-guild-images-by-guild-ids
       get-guild-profile-image-details: local-get-guild-profile-image-details
+      get-guild-details: local-get-guild-details

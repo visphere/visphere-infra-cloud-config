@@ -56,3 +56,4 @@ visphere:
       persist-notif-user-settings: docker-persist-notif-user-settings
       get-guild-images-by-guild-ids: docker-get-guild-images-by-guild-ids
       get-guild-profile-image-details: docker-get-guild-profile-image-details
+      get-guild-details: docker-get-guild-details

@@ -47,3 +47,4 @@ visphere:
   kafka:
     reply-topic:
       user-details: user-details
+      get-guild-details: get-guild-details

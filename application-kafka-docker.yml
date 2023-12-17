@@ -55,3 +55,4 @@ visphere:
       instantiate-user-related-settings: docker-instantiate-user-related-settings
       persist-notif-user-settings: docker-persist-notif-user-settings
       get-guild-images-by-guild-ids: docker-get-guild-images-by-guild-ids
+      get-guild-profile-image-details: docker-get-guild-profile-image-details

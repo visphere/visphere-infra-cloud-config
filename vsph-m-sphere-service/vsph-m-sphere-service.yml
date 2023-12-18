@@ -27,3 +27,5 @@ visphere:
       update-default-guild-profile: update-default-guild-profile
       get-guild-images-by-guild-ids: get-guild-images-by-guild-ids
       get-guild-profile-image-details: get-guild-profile-image-details
+      user-details: user-details
+      profile-image-details: profile-image-details

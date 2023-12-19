@@ -29,3 +29,4 @@ visphere:
       get-guild-profile-image-details: get-guild-profile-image-details
       user-details: user-details
       profile-image-details: profile-image-details
+      check-user-crendetials: check-user-crendetials

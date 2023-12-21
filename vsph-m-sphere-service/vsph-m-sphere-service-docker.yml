@@ -4,4 +4,4 @@ spring:
 
 visphere:
   guild-link:
-    url-prefix: http://localhost:${VSPH_DOCKER_CLIENT_PORT}
+    url-prefix: http://localhost:${VSPH_DOCKER_CLIENT_PORT}/join

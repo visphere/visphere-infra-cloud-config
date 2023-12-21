@@ -9,7 +9,7 @@ visphere:
       version: 1.0.0
       url: http://localhost:${VSPH_DEV_API_GATEWAY_PORT:6055}
   guild-link:
-    url-prefix: http://localhost:${VSPH_DEV_CLIENT_PORT}
+    url-prefix: http://localhost:${VSPH_DEV_CLIENT_PORT}/join
 
 springdoc:
   api-docs:

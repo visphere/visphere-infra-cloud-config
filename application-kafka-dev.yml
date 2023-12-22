@@ -53,3 +53,8 @@ visphere:
       get-guild-profile-image-details: local-get-guild-profile-image-details
       get-guild-details: local-get-guild-details
       check-user-crendetials: local-check-user-crendetials
+      check-user-sphere-guilds: local-check-user-sphere-guilds
+      delete-user-image-data: local-delete-user-image-data
+      delete-guild-image-data: local-delete-guild-image-data
+      delete-oauth2-user-data: local-delete-oauth2-user-data
+      delete-notif-user-settings: local-delete-notif-user-settings

@@ -58,3 +58,8 @@ visphere:
       get-guild-profile-image-details: docker-get-guild-profile-image-details
       get-guild-details: docker-get-guild-details
       check-user-crendetials: docker-check-user-crendetials
+      check-user-sphere-guilds: docker-check-user-sphere-guilds
+      delete-user-image-data: docker-delete-user-image-data
+      delete-guild-image-data: docker-delete-guild-image-data
+      delete-oauth2-user-data: docker-delete-oauth2-user-data
+      delete-notif-user-settings: docker-delete-notif-user-settings

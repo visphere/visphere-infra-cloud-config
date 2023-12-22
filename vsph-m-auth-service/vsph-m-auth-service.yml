@@ -35,6 +35,7 @@ visphere:
       delete-user-image-data: delete-user-image-data
       check-user-sphere-guilds: check-user-sphere-guilds
       delete-oauth2-user-data: delete-oauth2-user-data
+      delete-user-settings-data: delete-user-settings-data
       delete-notif-user-settings: delete-notif-user-settings
   mfa:
     label: Visphere

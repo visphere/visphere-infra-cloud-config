@@ -57,4 +57,5 @@ visphere:
       delete-user-image-data: local-delete-user-image-data
       delete-guild-image-data: local-delete-guild-image-data
       delete-oauth2-user-data: local-delete-oauth2-user-data
+      delete-user-settings-data: local-delete-user-settings-data
       delete-notif-user-settings: local-delete-notif-user-settings

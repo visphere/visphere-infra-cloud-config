@@ -62,4 +62,5 @@ visphere:
       delete-user-image-data: docker-delete-user-image-data
       delete-guild-image-data: docker-delete-guild-image-data
       delete-oauth2-user-data: docker-delete-oauth2-user-data
+      delete-user-settings-data: docker-delete-user-settings-data
       delete-notif-user-settings: docker-delete-notif-user-settings

@@ -12,9 +12,9 @@ springdoc:
     path: /swagger-ui.html
     config-url: /v3/api-docs/swagger-config
     urls:
-      - url: /vsph-m-auth-service/v3/api-docs
-        name: Auth Service
-        primaryName: Auth Service
+      - url: /vsph-m-user-service/v3/api-docs
+        name: User Service
+        primaryName: User Service
       - url: /vsph-m-misc-service/v3/api-docs
         name: Misc Service
         primaryName: Misc Service

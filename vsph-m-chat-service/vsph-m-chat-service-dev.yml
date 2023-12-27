@@ -2,7 +2,7 @@ spring:
   data:
     cassandra:
       contact-points: localhost
-      port: 9042
+      port: 9091
       username: ${VSPH_CASSANDRA_USERNAME}
       password: ${VSPH_CASSANDRA_PASSWORD}
 

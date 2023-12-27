@@ -48,7 +48,11 @@ spring:
         - id: chat
           uri: lb://vsph-m-chat-service
           predicates:
-            - Path=/**
+            - Path=/api/v1/chat/**
+        - id: chat-ws
+          uri: lb:ws://vsph-m-chat-service
+          predicates:
+            - Path=/websocket/**
 
 visphere:
   i18n:

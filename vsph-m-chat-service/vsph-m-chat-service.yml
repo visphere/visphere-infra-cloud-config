@@ -18,6 +18,7 @@ spring:
   cassandra:
     keyspace-name: vsph_default_kspc
     schema-action: create-if-not-exists
+    local-datacenter: datacenter1
     request:
       timeout: 10s
     connection:

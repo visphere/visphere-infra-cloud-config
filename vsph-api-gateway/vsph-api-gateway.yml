@@ -9,6 +9,10 @@ spring:
         - 'eureka-config'
   cloud:
     gateway:
+      filter:
+        remove-non-proxy-headers:
+          headers:
+          - dummy
       discovery:
         locator:
           enabled: true

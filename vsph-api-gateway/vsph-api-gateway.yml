@@ -44,7 +44,7 @@ spring:
         - id: chat
           uri: lb://vsph-m-chat-service
           predicates:
-            - Path=/api/v1/chat/**, /ws/v1/chat/**
+            - Path=/**
 
 visphere:
   i18n:

@@ -1,7 +1,6 @@
 spring:
-  data:
-    cassandra:
-      contact-points: vsph-cassandra-db
-      port: 9042
-      username: ${V_CASSANDRA_USERNAME}
-      password: ${V_CASSANDRA_PASSWORD}
+  cassandra:
+    contact-points: vsph-cassandra-db
+    port: 9042
+    username: ${V_CASSANDRA_USERNAME}
+    password: ${V_CASSANDRA_PASSWORD}

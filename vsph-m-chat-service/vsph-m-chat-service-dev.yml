@@ -1,10 +1,9 @@
 spring:
-  data:
-    cassandra:
-      contact-points: localhost
-      port: 9042
-      username: ${VSPH_CASSANDRA_USERNAME}
-      password: ${VSPH_CASSANDRA_PASSWORD}
+  cassandra:
+    contact-points: localhost
+    port: 9042
+    username: ${VSPH_CASSANDRA_USERNAME}
+    password: ${VSPH_CASSANDRA_PASSWORD}
 
 visphere:
   openapi:

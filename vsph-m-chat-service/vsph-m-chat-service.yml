@@ -15,12 +15,11 @@ spring:
         - 'eureka-config'
         - 'kafka'
         - 'kafka-docker'
-  data:
-    cassandra:
-      keyspace-name: vsph_default_kspc
-      schema-action: create-if-not-exists
-      request:
-        timeout: 10s
-      connection:
-        connect-timeout: 10s
-        init-query-timeout: 10s
+  cassandra:
+    keyspace-name: vsph_default_kspc
+    schema-action: create-if-not-exists
+    request:
+      timeout: 10s
+    connection:
+      connect-timeout: 10s
+      init-query-timeout: 10s

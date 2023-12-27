@@ -33,6 +33,9 @@ springdoc:
       - url: /vsph-m-sphere-service/v3/api-docs
         name: Sphere Service
         primaryName: Sphere Service
+      - url: /vsph-m-chat-service/v3/api-docs
+        name: Chat Service
+        primaryName: Chat Service
 
 visphere:
   cors:

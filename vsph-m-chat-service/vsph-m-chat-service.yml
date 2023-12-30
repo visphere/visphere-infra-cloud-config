@@ -26,6 +26,8 @@ spring:
       init-query-timeout: 10s
 
 visphere:
+  websocket:
+    relay-host: localhost
   kafka:
     reply-topic:
       check-user-session: check-user-session

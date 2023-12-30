@@ -24,3 +24,9 @@ spring:
     connection:
       connect-timeout: 10s
       init-query-timeout: 10s
+
+visphere:
+  kafka:
+    reply-topic:
+      check-user-session: check-user-session
+      check-user-guild-assignments: check-user-guild-assignments

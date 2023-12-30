@@ -64,3 +64,5 @@ visphere:
       delete-oauth2-user-data: docker-delete-oauth2-user-data
       delete-user-settings-data: docker-delete-user-settings-data
       delete-notif-user-settings: docker-delete-notif-user-settings
+      check-user-session: docker-check-user-session
+      check-user-guild-assignments: docker-check-user-guild-assignments

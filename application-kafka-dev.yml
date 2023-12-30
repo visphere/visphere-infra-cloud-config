@@ -59,3 +59,5 @@ visphere:
       delete-oauth2-user-data: local-delete-oauth2-user-data
       delete-user-settings-data: local-delete-user-settings-data
       delete-notif-user-settings: local-delete-notif-user-settings
+      check-user-session: local-check-user-session
+      check-user-guild-assignments: local-check-user-guild-assignments

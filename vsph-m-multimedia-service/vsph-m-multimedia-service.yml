@@ -44,6 +44,8 @@ visphere:
       size: 250
       max-size-mb: 3
       locker-alpha-blend-path: gfx/locker-alpha-blend.png
+  resource:
+    image-replacer-path: gfx/replacer.png
   kafka:
     reply-topic:
       user-details: user-details

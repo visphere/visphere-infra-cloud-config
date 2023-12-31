@@ -32,3 +32,6 @@ visphere:
     reply-topic:
       check-user-session: check-user-session
       check-user-guild-assignments: check-user-guild-assignments
+      check-text-channel-assignments: check-text-channel-assignments
+      get-users-details: get-users-details
+      get-users-images-details: get-users-images-details

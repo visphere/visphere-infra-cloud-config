@@ -66,3 +66,6 @@ visphere:
       delete-notif-user-settings: docker-delete-notif-user-settings
       check-user-session: docker-check-user-session
       check-user-guild-assignments: docker-check-user-guild-assignments
+      check-text-channel-assignments: docker-check-text-channel-assignments
+      get-users-details: docker-get-users-details
+      get-users-images-details: docker-get-users-images-details

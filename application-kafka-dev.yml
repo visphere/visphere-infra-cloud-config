@@ -61,3 +61,6 @@ visphere:
       delete-notif-user-settings: local-delete-notif-user-settings
       check-user-session: local-check-user-session
       check-user-guild-assignments: local-check-user-guild-assignments
+      check-text-channel-assignments: local-check-text-channel-assignments
+      get-users-details: local-get-users-details
+      get-users-images-details: local-get-users-images-details

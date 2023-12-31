@@ -69,3 +69,4 @@ visphere:
       check-text-channel-assignments: docker-check-text-channel-assignments
       get-users-details: docker-get-users-details
       get-users-images-details: docker-get-users-images-details
+      get-oauth2-users-details: docker-get-oauth2-users-details

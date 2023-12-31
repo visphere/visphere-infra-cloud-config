@@ -49,3 +49,4 @@ visphere:
       user-details: user-details
       get-guild-details: get-guild-details
       get-oauth2-details: get-oauth2-details
+      get-oauth2-users-details: get-oauth2-users-details

@@ -31,3 +31,4 @@ visphere:
       profile-image-details: profile-image-details
       check-user-crendetials: check-user-crendetials
       delete-guild-image-data: delete-guild-image-data
+      delete-user-messages: delete-user-messages

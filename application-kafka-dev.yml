@@ -65,3 +65,4 @@ visphere:
       get-users-details: local-get-users-details
       get-users-images-details: local-get-users-images-details
       get-oauth2-users-details: local-get-oauth2-users-details
+      delete-user-messages: local-delete-user-messages

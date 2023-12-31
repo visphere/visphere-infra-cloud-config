@@ -70,3 +70,4 @@ visphere:
       get-users-details: docker-get-users-details
       get-users-images-details: docker-get-users-images-details
       get-oauth2-users-details: docker-get-oauth2-users-details
+      delete-user-messages: docker-delete-user-messages

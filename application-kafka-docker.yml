@@ -71,3 +71,4 @@ visphere:
       get-users-images-details: docker-get-users-images-details
       get-oauth2-users-details: docker-get-oauth2-users-details
       delete-user-messages: docker-delete-user-messages
+      delete-text-channel-messages: docker-delete-text-channel-messages

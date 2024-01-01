@@ -37,6 +37,7 @@ visphere:
       delete-oauth2-user-data: delete-oauth2-user-data
       delete-user-settings-data: delete-user-settings-data
       delete-notif-user-settings: delete-notif-user-settings
+      delete-user-messages: delete-user-messages
   mfa:
     label: Visphere
     issuer: app@visphere.pl

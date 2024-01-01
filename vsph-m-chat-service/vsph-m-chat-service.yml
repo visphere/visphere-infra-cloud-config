@@ -35,4 +35,3 @@ visphere:
       check-text-channel-assignments: check-text-channel-assignments
       get-users-details: get-users-details
       get-users-images-details: get-users-images-details
-      get-user-text-channels: get-user-text-channels

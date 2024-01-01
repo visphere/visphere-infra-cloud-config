@@ -68,3 +68,4 @@ visphere:
       delete-user-messages: local-delete-user-messages
       delete-text-channel-messages: local-delete-text-channel-messages
       get-user-text-channels: local-get-user-text-channels
+      delete-user-from-guilds: local-delete-user-from-guilds

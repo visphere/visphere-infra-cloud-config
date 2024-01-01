@@ -39,6 +39,7 @@ visphere:
       delete-notif-user-settings: delete-notif-user-settings
       delete-user-messages: delete-user-messages
       get-user-text-channels: get-user-text-channels
+      delete-user-from-guilds: delete-user-from-guilds
   mfa:
     label: Visphere
     issuer: app@visphere.pl

@@ -67,3 +67,4 @@ visphere:
       get-oauth2-users-details: local-get-oauth2-users-details
       delete-user-messages: local-delete-user-messages
       delete-text-channel-messages: local-delete-text-channel-messages
+      get-user-text-channels: local-get-user-text-channels

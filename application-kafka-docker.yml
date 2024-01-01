@@ -72,3 +72,4 @@ visphere:
       get-oauth2-users-details: docker-get-oauth2-users-details
       delete-user-messages: docker-delete-user-messages
       delete-text-channel-messages: docker-delete-text-channel-messages
+      get-user-text-channels: docker-get-user-text-channels

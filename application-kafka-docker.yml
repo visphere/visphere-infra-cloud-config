@@ -74,3 +74,4 @@ visphere:
       delete-text-channel-messages: docker-delete-text-channel-messages
       get-user-text-channels: docker-get-user-text-channels
       delete-user-from-guilds: docker-delete-user-from-guilds
+      get-guild-base-text-channel-id: docker-get-guild-base-text-channel-id

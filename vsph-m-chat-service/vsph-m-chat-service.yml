@@ -28,6 +28,9 @@ spring:
 visphere:
   websocket:
     relay-host: localhost
+  files:
+    max-per-message: 5
+    max-size-mb: 5
   kafka:
     reply-topic:
       check-user-session: check-user-session
@@ -35,3 +38,4 @@ visphere:
       check-text-channel-assignments: check-text-channel-assignments
       get-users-details: get-users-details
       get-users-images-details: get-users-images-details
+      get-guild-base-text-channel-id: get-guild-base-text-channel-id

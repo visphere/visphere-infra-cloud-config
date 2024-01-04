@@ -39,3 +39,4 @@ visphere:
       get-users-details: get-users-details
       get-users-images-details: get-users-images-details
       get-guild-base-text-channel-id: get-guild-base-text-channel-id
+      get-guild-details: get-guild-details

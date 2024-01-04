@@ -30,7 +30,6 @@ visphere:
     relay-host: localhost
   files:
     max-per-message: 5
-    max-size-mb: 5
   kafka:
     reply-topic:
       check-user-session: check-user-session

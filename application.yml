@@ -4,6 +4,10 @@ spring:
     throw-exception-if-no-handler-found: true
   banner:
     location: classpath:spring/banner.txt
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 120MB
 
 management:
   endpoints:

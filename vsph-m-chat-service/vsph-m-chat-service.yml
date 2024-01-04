@@ -24,10 +24,6 @@ spring:
     connection:
       connect-timeout: 10s
       init-query-timeout: 10s
-  servlet:
-    multipart:
-      max-file-size: 20MB
-      max-request-size: 120MB
 
 visphere:
   websocket:

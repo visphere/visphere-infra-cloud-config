@@ -19,10 +19,6 @@ spring:
         - 'kafka'
         - 'kafka-docker'
         - 'eureka-config'
-  servlet:
-    multipart:
-      max-file-size: 20MB
-      max-request-size: 120MB
 
 visphere:
   generator:
@@ -42,7 +38,7 @@ visphere:
       font-path: font/figtree-semibold.ttf
       font-size: 110
       size: 250
-      max-size-mb: 3
+      max-size-mb: 5
       locker-alpha-blend-path: gfx/locker-alpha-blend.png
   resource:
     image-replacer-path: gfx/replacer.png
